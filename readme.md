@@ -13,7 +13,7 @@ This study will test the two approaches, using two corpora:
 - a section of the 'Divina Commedia' in the three witnesses copied by Boccaccio (Italian, XIV century)
 - one or more paragraphs of the prose 'Lancelot' in seven witnesses (French, XIII century)
 
-The open source program **CollateX** will be used for automatic collation.
+The open source program **CollateX** will be used for the automatic collation.
 
 
 #### Goals of this study:
@@ -21,7 +21,7 @@ The open source program **CollateX** will be used for automatic collation.
 - assess which is the most efficient method for overcoming spelling variation and obtaining only substantial variation in the automatic collation of medieval texts, at the current state of the art
 - test the use of NLP resources in the pre-processing of data for automatic collation
 - further test and explore the near-match functionality in CollateX
-- present additional visualization and export options for normalized collations
+- present additional visualization and export options for normalized collations in CollateX
 
 ---
 
@@ -31,7 +31,6 @@ In the two examples
 - [dante_firstlines](dante/dante_firstlines.ipynb)
 
 four ways will be tested:
-
 
 #### 0. Normal
 As a base for comparison, the texts will be first collated without any pre-processing. Collation is performed with *segmentation=False*, for easiness of comparison with the following results.
