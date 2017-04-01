@@ -27,8 +27,8 @@ The open source program **CollateX** will be used for automatic collation.
 
 In the two examples
 
-- [lancelot_conte]()
-- [dante_firstlines]()
+- [lancelot_conte](lancelot/lancelot_conte.ipynb)
+- [dante_firstlines](dante/dante_firstlines.ipynb)
 
 four ways will be tested:
 
@@ -49,7 +49,7 @@ The original forms are normalized manually. A list of normalized forms is manual
 #### 2b. NLP
 The original forms are normalized using linguistic information automatically extracted, and in particular 'lemma' and 'POS tag'. In both cases for the lemmatization and POS tagging it is possible to use TreeTagger: parameters files are made available for Italian in D(h)ante by Angelo Basile (Fondazione Bruno Kessler - http://dh.fbk.eu/D%28h%29ante), and for French in the Medieval French Language Toolkit (https://github.com/sheiden/Medieval-French-Language-Toolkit). In this scenario, a list of normalized forms are prepared, not manually, but automatically, using 'lemma' + 'POS tag'. For example, 'camin' and 'cammin' both become 'SScammino', which means that the lemma is 'cammino' and that it is a noun (sostantivo S) singular S. 
 
-The list of words with POS and lemma info, that works as a dictionary, is created using [create\_pos\_lemma.py]().
+The list of words with POS and lemma info, that works as a dictionary, is created using [create\_pos\_lemma.py](lancelot/create_pos_lemma.py).
 
 N.b.: the first attempts suggest that the automatic linguistic analysis needs to be checked manually and often corrected in order to have good results. Furthermore, while the Medieval French Toolkit offers both POS and lemma tagging, D(h)ante only has POS tagging and not lemma identification, which is added manually.
 
