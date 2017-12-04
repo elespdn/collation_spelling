@@ -1,12 +1,12 @@
 
 #### Proposal:
 
-# AUTOMATIC COLLATION OF MEDIEVAL LANGUAGES. ISOLATING ORTHOGRAPHIC VARIATIONS.
+# AUTOMATIC COLLATION OF MEDIEVAL LANGUAGES. ISOLATING ORTHOGRAPHICAL VARIATIONS.
 
 
 When collating texts, scholars often need to distinguish between formal and substantive variation. Formal variation is often dismissed as non relevant for analyzing the relations among the witnesses, for example in stemmatics (even if this practice has been challenged by Andrews 2016). What is referred as formal variation may vary, from orthographical to morphological changes.
 
-Orthographical variation, in particular, is a kind of formal variation considered non relevant for other than linguistic analysis. In the case of automatic collation, orthographic instability introduces a number of variations that should be kept distinguished from others (formal or substantive), for easiness of interpretation of the output.
+Orthographical variation, in particular, is a kind of formal variation considered non relevant for other than linguistic analysis. In the case of automatic collation, orthographical instability introduces a number of variations that should be kept distinguished from others (formal or substantive), for easiness of interpretation of the output.
 
 Example 1
 A: Lors conte li rois a la reine coment la dame del lac
@@ -40,7 +40,7 @@ These variants might be considered all together or separatly. Current practices 
 
 Various approaches have been applied in order to overcome this challenge. The attempts can be divided into two categories:
 
-1. fuzzy match or **near match**. The program aligns not only on the basis of perfect matches, but also of imperfect matches. The original orthographic form is recorded, but variants in orthographic forms do not lead to a split in the alignment.
+1. fuzzy match or **near match**. The program aligns not only on the basis of perfect matches, but also of imperfect matches. The original orthographical form is recorded, but variants in orthographical forms do not lead to a split in the alignment.
 2. **normalization**. In this case the original forms would be turned into standard forms. In this case too, the original forms are not "lost", on the contrary they are available for the whole process, but not used during the alignment.
 
 Here below we will test the two approaches. As a case study, small portion of four witnesses of the Old French prose *Lancelot* will be used. What apply to Old French can be valid for other medieval (and more in general, highly instable in their orthograph) languages. We will also focus on the open source program for automatic collation **CollateX**; this program proves to be the best option for aligning multiple witnesses of a text.
@@ -48,7 +48,7 @@ Here below we will test the two approaches. As a case study, small portion of fo
 
 #### Goals of this study:
 
-- assess which is the most efficient method for isolating orthographic variation in Old French and, more in general, medieval texts in the context of automatic collation
+- assess which is the most efficient method for isolating orthographical variation in Old French and, more in general, medieval texts in the context of automatic collation
 - test the use of NLP resources in the pre-processing of data for automatic collation
 - further test and explore the near-match functionality in CollateX
 - present additional visualization and export options for normalized collations in CollateX
