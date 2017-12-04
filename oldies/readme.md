@@ -1,33 +1,8 @@
-
 #### Proposal:
 
-# AUTOMATIC COLLATION OF MEDIEVAL LANGUAGES. ORTHOGRAPHIC VARIATIONS.
+# AUTOMATIC COLLATION OF MEDIEVAL LANGUAGES. HOW TO DEAL WITH SPELLING VARIATION
 
-check Kestemont for spelling/orthographic
-
-
-Spelling variation is a well known challenge for the collation of medieval texts (and not only). This is because often, though not always, the scholar needs to distinguish between formal and substantial variation. The automatic collation of texts "as they are" would instead identify textual variants, without recognizing one or the other category. 
-Formal variation is often dismissed as non relevant for analyzing the relations among the witnesses, for example in stemmatics (even if this has been challenged by Andrews 2016, Analysis of Variation Significance in Artificial Traditions using Stemmaweb). What is referred as formal variation may vary, from spelling, to morphological changes. 
-Spelling variation, in particular, is a kind of formal variation considered non relevant for other than linguistic analysis. In the case of automatic collation, spelling instability introduce a number of variations that should be kept distinguished from others (formal or substantive), for easiness of interpretation of the output.
-
-Example 1
-A: Lors conte li rois a la reine coment la dame del lac
-B: Lors conte li rois a la reine comment la dame del lac
-C: Lors conte li rois a la roine coment la dame del lac
-D: Adonc li conte li rois comment la dame du lac
-
-Example 2
-A: et la reine se merveille mult
-B: et ele s'an mervoille mout
-C: et ele s'en merveille mult
-D: et la reine s'en mervelle mult
-
-Spiegare esempio, poi continuare
-
-Trovare altri esempi
-
-
-
+Spelling variation is a well known challenge for the collation of medieval texts (and not only). This is because often, though not always, the user is interested in substantial variation, and not in spelling variation. Thus the automatic collation of texts "as they are", that is without any pre-processing, may bring disappointing results, because the program will recognize as a variant both spelling and substantial differences.
 
 Various approaches have been applied in order to overcome this challenge and to have only substantial differences recognized as variants by the program performing automatic collation. These attempts can be divided into two categories:
 

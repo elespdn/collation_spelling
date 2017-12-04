@@ -1,0 +1,19 @@
+
+
+Without Segmentation = False I got the following error:
+
+Traceback (most recent call last):
+  File "./simpleCollation.py", line 7, in <module>
+    alignment_table = collate(collation)
+  File "/home/espadini/anaconda3/lib/python3.6/site-packages/collatex/core_functions.py", line 73, in collate
+    join(graph)
+  File "/home/espadini/anaconda3/lib/python3.6/site-packages/collatex/core_classes.py", line 329, in join
+    (_, join_candidate) = out_edges[0]
+TypeError: 'OutEdgeDataView' object does not support indexing
+
+
+-----------------------------------------------
+
+
+
+
