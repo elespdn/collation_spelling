@@ -1,14 +1,12 @@
 
 #### Proposal:
 
-# AUTOMATIC COLLATION OF MEDIEVAL LANGUAGES. ORTHOGRAPHIC VARIATIONS.
-
-check Kestemont for spelling/orthographic
+# AUTOMATIC COLLATION OF MEDIEVAL LANGUAGES. ISOLATING ORTHOGRAPHIC VARIATIONS.
 
 
-Spelling variation is a well known challenge for the collation of medieval texts (and not only). This is because often, though not always, the scholar needs to distinguish between formal and substantial variation. The automatic collation of texts "as they are" would instead identify textual variants, without recognizing one or the other category. 
-Formal variation is often dismissed as non relevant for analyzing the relations among the witnesses, for example in stemmatics (even if this has been challenged by Andrews 2016, Analysis of Variation Significance in Artificial Traditions using Stemmaweb). What is referred as formal variation may vary, from spelling, to morphological changes. 
-Spelling variation, in particular, is a kind of formal variation considered non relevant for other than linguistic analysis. In the case of automatic collation, spelling instability introduce a number of variations that should be kept distinguished from others (formal or substantive), for easiness of interpretation of the output.
+When collating texts, scholars often need to distinguish between formal and substantive variation. Formal variation is often dismissed as non relevant for analyzing the relations among the witnesses, for example in stemmatics (even if this practice has been challenged by Andrews 2016). What is referred as formal variation may vary, from orthographical to morphological changes.
+
+Orthographical variation, in particular, is a kind of formal variation considered non relevant for other than linguistic analysis. In the case of automatic collation, orthographic instability introduces a number of variations that should be kept distinguished from others (formal or substantive), for easiness of interpretation of the output.
 
 Example 1
 A: Lors conte li rois a la reine coment la dame del lac
@@ -22,39 +20,44 @@ B: et ele s'an mervoille mout
 C: et ele s'en merveille mult
 D: et la reine s'en mervelle mult
 
-Spiegare esempio, poi continuare
+In these examples, the orthographical variations are:
 
-Trovare altri esempi
+- reine / roine
+- coment / comment
+- del / du
+- an / en
+- merveille / mervoille /mervelle
+- mult / mout,
 
+while the substantial variations are:
 
+- Lors conte / Adonc li conte
+- a la reine / --
+- et la reine / et ele
+- se / s'en.
 
+These variants might be considered all together or separatly. Current practices in automatic collation only support the first option, but cannot distinguish automaticaly between the two categories.
 
-Various approaches have been applied in order to overcome this challenge and to have only substantial differences recognized as variants by the program performing automatic collation. These attempts can be divided into two categories:
+Various approaches have been applied in order to overcome this challenge. The attempts can be divided into two categories:
 
-1. fuzzy match or **near match**. The program aligns not only on the basis of perfect matches, but also of imperfect matches;
-2. **normalization**. In this case the original forms would be turned into standard forms. Please note that the original forms are not "lost", on the contrary they are available for the whole process, but not used during the alignment.
+1. fuzzy match or **near match**. The program aligns not only on the basis of perfect matches, but also of imperfect matches. The original orthographic form is recorded, but variants in orthographic forms do not lead to a split in the alignment.
+2. **normalization**. In this case the original forms would be turned into standard forms. In this case too, the original forms are not "lost", on the contrary they are available for the whole process, but not used during the alignment.
 
-This study will test the two approaches, using two corpora:
-- a section of the 'Divina Commedia' in the three witnesses copied by Boccaccio (Italian, XIV century)
-- one or more paragraphs of the prose 'Lancelot' in seven witnesses (French, XIII century)
-
-The open source program **CollateX** will be used for the automatic collation.
+Here below we will test the two approaches. As a case study, small portion of four witnesses of the Old French prose *Lancelot* will be used. What apply to Old French can be valid for other medieval (and more in general, highly instable in their orthograph) languages. We will also focus on the open source program for automatic collation **CollateX**; this program proves to be the best option for aligning multiple witnesses of a text.
 
 
 #### Goals of this study:
 
-- assess which is the most efficient method for overcoming spelling variation and obtaining only substantial variation in the automatic collation of medieval texts, at the current state of the art
+- assess which is the most efficient method for isolating orthographic variation in Old French and, more in general, medieval texts in the context of automatic collation
 - test the use of NLP resources in the pre-processing of data for automatic collation
 - further test and explore the near-match functionality in CollateX
 - present additional visualization and export options for normalized collations in CollateX
 
 ---
 
-In the two examples
+In the example
 
-- [dante_firstlines](dante/dante_firstlines.ipynb) (easier, better starting from here)
-- [lancelot_conte](lancelot/lancelot_conte.ipynb) 
-
+- [Example1](case_study/example1.ipynb) (easier, better starting from here)
 
 four ways will be tested.
 
@@ -68,7 +71,7 @@ For what concerns the first approach -Near Match-, CollateX offers a parameter '
 
  --
 
-For what concerns the second approach -Normalization-, two methods will be tested:
+For what concerns the second approach, i.e. normalization, two methods will be tested:
 
 #### 2a. Dictionary
 The original forms are normalized manually. A list of normalized forms is manually prepared and those forms will automatically take the place of the original ones for the collation. The output is rendered both in a table and as a graph.
@@ -77,11 +80,13 @@ Manual normalization gives the best results, but is also the most demanding way 
 
 
 #### 2b. NLP
-The original forms are normalized using linguistic information automatically extracted, and in particular 'lemma' and 'POS tag'. In both cases for the lemmatization and POS tagging it is possible to use TreeTagger: parameters files are made available for Italian in D(h)ante by Angelo Basile (Fondazione Bruno Kessler - http://dh.fbk.eu/D%28h%29ante), and for French in the Medieval French Language Toolkit (https://github.com/sheiden/Medieval-French-Language-Toolkit). In this scenario, a list of normalized forms are prepared, not manually, but automatically, using 'lemma' + 'POS tag'. For example, 'camin' and 'cammin' both become 'SScammino', which means that the lemma is 'cammino' and that it is a noun (sostantivo S) singular S. 
+The original forms are normalized using linguistic information automatically extracted, and in particular 'lemma' and 'POS tag'. 
+
+Lemmatization and POS tagging is performed with TreeTagger: parameters files are made available for Old French in the Medieval French Language Toolkit (https://github.com/sheiden/Medieval-French-Language-Toolkit). 
 
 The list of words with POS and lemma info, that works as a dictionary, is created using [create\_pos\_lemma.py](lancelot/create_pos_lemma.py).
 
-N.b.: the first attempts suggest that the automatic linguistic analysis needs to be checked manually and often corrected in order to have good results. It's worth clarifying that the aim in this scenario is not to have an excellent level of lemma and POS recognition, but to avoid mismatches, thus an error is not relevant as long as it won't lead to missing the alignment. Also, while the Medieval French Toolkit offers both POS and lemma tagging, D(h)ante only has POS tagging and not lemma identification, which is added manually.
+N.b.: the first attempts suggest that the automatic linguistic analysis needs to be checked manually and often corrected in order to have good results. It's worth clarifying that the aim in this scenario is not to have an excellent level of lemma and POS recognition, but to avoid mismatches, thus an error is not relevant as long as it won't lead to missing the alignment. 
 
 #### Visualization and export note
 The only visualization that allows at the moment to display the full results of the collation when a normalization has been performed, is the graph. In the case of a spelling variation, the graph will not split in two nodes, but one node only will be displayed, registering all the spelling variants on it. Thus the graph will split only if substantial variation occurs. (p.s.: check character encoding issues in the graph, e.g. 'ç')
