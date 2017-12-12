@@ -20,6 +20,7 @@ def lemmatization(indir, outdir):
 # CLEAN THE OUTPUT OF THE LEMMATIZATION
 # ('_.*', ''),
 # ('\d', '')
+##
 
 def clean(indir, outdir):
     patterns = [('_.*', ''),
