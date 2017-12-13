@@ -89,4 +89,12 @@ In the alignment table the orthographic variation is completely lost. It would b
 ##
 ####################
 
-NLP approaches (for instance, contextual information. Vd. Doc and readme TreeTagger, Article Kestemont)
+
+For NLP normalization, different match: not only the same (or near), but if they have the same POS (before '_') and one contains the other.
+Ex. reine [NOM_regne|rein|röine] vs roine [NOM_röine]   should be aligned, they have the same POS ('NOM_') and the second is contained in the first ('röine')
+
+
+Train TreeTagger with FROLEX lexicon available at <https://github.com/sheiden/Medieval-French-Language-Toolkit>
+
+
+Study NLP approaches (for instance, contextual information. Vd. Doc and readme TreeTagger, Article Kestemont)

@@ -4,12 +4,12 @@ a	PRE	a
 coment	ADV	coment
 comment	ADV	coment
 conte	VER	conter
-dame	NOM	dam
+dame	NOM	dam|dame|dan
 del	PREDET:de	de+le
-du	PREDET:de	de+le
+du	PREDET:de	de+le|le
 la	DET:def	le
 lac	NOM	lac
 li	DET:def	le
-reine	NOM	regne
-roine	NOM	r�ine
+reine	NOM	regne|rein|röine
+roine	NOM	röine
 rois	NOM	roi

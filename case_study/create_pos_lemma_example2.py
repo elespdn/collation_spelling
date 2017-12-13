@@ -45,8 +45,8 @@ infile = 'data/example2/process/p4_single_words_analyzed.txt'
 outfile = 'data/example2/process/p5_single_words_analyzed_clean.txt'
 patterns = [('_.*', ''),
             ('\d.*', ''),
-            ('\|.*', ''),
-            ('�', 'ö'),
+##            ('\|.*', ''), so that the different output possibilities are saved
+            ('�', 'ö'),  ## encoding problem, but it does seem to depend on the TreeTaggerWrapper, nor on the script. Maybe on the lexicon? Anyway, this is not real solution but works
             ('<nolem>', 'UNKNOWN')]
 t = open(infile).read()
 for (p1,p2) in patterns:
