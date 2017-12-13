@@ -16,8 +16,8 @@ with open('data/example1/W1.txt') as W1, \
     all_texts.write(W1.read() + ' ' + W2.read() + ' ' + W3.read() + ' ' + W4.read())
 
 # each word a new line, in alphabetical order: sorted()
-outfile = open('data/example1/process/p2_all_words.txt', 'w', encoding='utf-8')
 infile = open('data/example1/process/p1_all_texts.txt').read()
+outfile = open('data/example1/process/p2_all_words.txt', 'w', encoding='utf-8')
 words = infile.split()
 for word in sorted(words):
     outfile.write(word + '\n')
@@ -25,7 +25,7 @@ for word in sorted(words):
 # delete duplicates
 infile = 'data/example1/process/p2_all_words.txt'
 lines_seen = set() # holds lines already seen
-outfile = open('data/example1/process/p3_single_words.txt', "w")
+outfile = open('data/example1/process/p3_single_words.txt', 'w', encoding='utf-8')
 for line in open(infile, "r"):
     if line not in lines_seen: # not a duplicate
         outfile.write(line)
@@ -51,7 +51,6 @@ for (p1,p2) in patterns:
     print(p1)
     p = re.compile(p1)
     t = p.sub(p2, t)
-
 o = open(outfile, 'w', encoding='utf-8')
 o.write(t)
 o.close()
@@ -59,14 +58,13 @@ o.close()
 
 # create pos_lemma.csv
 infile = open('data/example1/process/p5_single_words_analyzed_clean.txt', 'r')
-outfile = open('pos_lemma.csv', 'w', encoding='utf-8')
+outfile = open('pos_lemma_example1.csv', 'w', encoding='utf-8')
 for aline in infile:
     values = aline.split()
     original = values[0]
     pos = values[1]
     lemmas = values[2]
     outfile.write(original + ',' + pos + '_' + lemmas + '\n')
-
 infile.close()
 outfile.close()
 

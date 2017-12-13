@@ -1,0 +1,85 @@
+
+
+
+####################
+##
+## SET UP 
+##
+####################
+
+check version
+	pip show collatex
+
+
+install new release
+	pip install --upgrade --pre collatex
+
+
+New version of CollateX
+2.1.3rc1
+
+
+Install pygraphviz <https://anaconda.org/bioconda/pygraphviz>
+	conda install -c bioconda pygraphviz
+
+
+If problems with networkx
+The second one (on Linux) is caused by a version difference in the networkx library. NetworkX recently updated itself to version 2.0, breaking API compatibility with previous 1.x versions. CollateX Python at the moment only works with networkx version 1.X. First uninstall the current networkx version by typing ‘pip uninstall networkx’ (without the quotes) and then install the working version by typing 
+'pip install -Iv networkx==1.11'without the qoutes.
+
+
+
+
+
+####################
+##
+## EXAMPLES
+##
+####################
+
+
+##	Example 1
+Simple, no collation problems. 
+
+
+##	Example 2
+Attention to 'chevalier' vs 'chevalerie'; it might seem orthographic variation, but it is not.
+
+
+
+
+
+
+
+
+####################
+##
+## PROCEDURES
+##
+####################
+
+
+
+
+
+
+
+####################
+##
+## TEMP CONCLUSIONS
+##
+####################
+
+
+Creation of a dictionary requires a lot of manual work and leads to the best result. Not scalable.
+
+
+VISUALIZATION
+
+In the alignment table the orthographic variation is completely lost. It would be great to have a way to differentiate, for example in   W1 W2 W3 *a la reine / roine*  vs  w4 NULL.
+
+
+
+
+
+
