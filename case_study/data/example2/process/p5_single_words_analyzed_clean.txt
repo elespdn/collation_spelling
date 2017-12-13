@@ -1,6 +1,6 @@
 a	VER	avoir
 achever	VER	achever
-ait	VER	aidier
+ait	VER	aidier|avoir
 autres	ADJ	autre
 aventures	NOM	aventure
 car	CON:coord	car
@@ -9,14 +9,14 @@ chevalier	NOM	chevalier
 dex	NOM	dieu
 diex	NOM	dieu
 en	PRO:clit	en
-la	PRO:pers	ele
+la	PRO:pers	ele|il
 lairoiz	VER	laissier
 lerroiz	VER	lerroiz
 les	DET:def	le
 lesroiz	NOM	lesroiz
-mis	VER	manoir
-mise	VER	metre
-ou	PROCON	o
+mis	VER	manoir|metre|mettre
+mise	VER	metre|mettre
+ou	PROCON	o|oö
 par	PRE	par
 proece	NOM	pröece
 proesce	NOM	pröece

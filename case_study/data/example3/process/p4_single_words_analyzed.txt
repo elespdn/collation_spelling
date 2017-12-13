@@ -3,7 +3,9 @@ bel	ADJ	bel1|bel_+T|I
 bial	ADJ	bel_Z
 biau	ADJ	bel_I
 ce	PRO:invar	ce1|ce_S|C
-cist	VER	<nolem>
+cest	DET:demo	cest_CS
+cist	NOM	<nolem>
+com	CON:subord	come1_ST
 come	CON:subord	come1_T
 devez	VER	devoir_+MI
 devries	VER	devries

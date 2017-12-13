@@ -3,7 +3,9 @@ bel
 bial
 biau
 ce
+cest
 cist
+com
 come
 devez
 devries

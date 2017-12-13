@@ -1,6 +1,6 @@
 a,VER_avoir
 achever,VER_achever
-ait,VER_aidier
+ait,VER_aidier|avoir
 autres,ADJ_autre
 aventures,NOM_aventure
 car,CON:coord_car
@@ -9,14 +9,14 @@ chevalier,NOM_chevalier
 dex,NOM_dieu
 diex,NOM_dieu
 en,PRO:clit_en
-la,PRO:pers_ele
+la,PRO:pers_ele|il
 lairoiz,VER_laissier
 lerroiz,VER_lerroiz
 les,DET:def_le
 lesroiz,NOM_lesroiz
-mis,VER_manoir
-mise,VER_metre
-ou,PROCON_o
+mis,VER_manoir|metre|mettre
+mise,VER_metre|mettre
+ou,PROCON_o|oö
 par,PRE_par
 proece,NOM_pröece
 proesce,NOM_pröece
