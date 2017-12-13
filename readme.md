@@ -80,7 +80,7 @@ The original forms are normalized using linguistic information automatically ext
 
 Lemmatization and POS tagging is performed with TreeTagger: parameters files are made available for Old French in the Medieval French Language Toolkit (https://github.com/sheiden/Medieval-French-Language-Toolkit). 
 
-The list of words with POS and lemma info, that works as a dictionary, is created using [create\_dictionary\_using\_NLP.py](case_study/create_dictionary_using_NLP.py).
+The list of words with POS and lemma info, that works as a dictionary, is created using [create\_dictionary\_using\_NLP.py](case_study/create_dictionary_using_NLP.ipynb).
 
 N.b.: the first attempts suggest that the automatic linguistic analysis needs to be checked manually and often corrected in order to have good results. It's worth clarifying that the aim in this scenario is not to have an excellent level of lemma and POS recognition, but to avoid mismatches, thus an error is not relevant as long as it won't lead to missing the alignment. 
 
