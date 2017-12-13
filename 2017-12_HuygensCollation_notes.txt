@@ -31,6 +31,8 @@ The second one (on Linux) is caused by a version difference in the networkx libr
 
 
 
+
+
 ####################
 ##
 ## EXAMPLES
@@ -59,6 +61,18 @@ Attention to 'chevalier' vs 'chevalerie'; it might seem orthographic variation, 
 ####################
 
 
+Our ideal result is the one obtained using the dictionary (created manually), option 2.
+
+0. Nothing
+1. Near_match
+2. Dictionary (manual)
+3. Dictionary (NLP)
+
+
+
+Near_match after the exact match (initial) looks at variations and gaps
+
+Nearmatch works on the entire set as result of the first exact match
 
 
 
@@ -71,12 +85,7 @@ Attention to 'chevalier' vs 'chevalerie'; it might seem orthographic variation, 
 ####################
 
 
-Creation of a dictionary requires a lot of manual work and leads to the best result. Not scalable.
-
-
-VISUALIZATION
-
-In the alignment table the orthographic variation is completely lost. It would be great to have a way to differentiate, for example in   W1 W2 W3 *a la reine / roine*  vs  w4 NULL.
+Creation of a dictionary manually requires a lot of manual work and leads to the best result. Not scalable.
 
 
 
@@ -90,11 +99,31 @@ In the alignment table the orthographic variation is completely lost. It would b
 ####################
 
 
+
+- NEAR_MATCH
+Near match without gaps
+	Select variation phenomena
+
+
+- VISUALIZATION
+In the alignment table the orthographic variation is completely lost. Add another color for match on the normalized form (where the original forms are different).
+
+
+- CUSTOMIZE MATCH FOR AUTOMATIC DICTIONARY
 For NLP normalization, different match: not only the same (or near), but if they have the same POS (before '_') and one contains the other.
 Ex. reine [NOM_regne|rein|röine] vs roine [NOM_röine]   should be aligned, they have the same POS ('NOM_') and the second is contained in the first ('röine')
 
 
-Train TreeTagger with FROLEX lexicon available at <https://github.com/sheiden/Medieval-French-Language-Toolkit>
 
 
-Study NLP approaches (for instance, contextual information. Vd. Doc and readme TreeTagger, Article Kestemont)
+
+----------------------------------------------------
+
+
+
+To do after (Ele)
+
+- Train TreeTagger with FROLEX lexicon available at <https://github.com/sheiden/Medieval-French-Language-Toolkit>
+
+
+- Study NLP approaches (for instance, contextual information. Vd. Doc and readme TreeTagger, Article Kestemont)
