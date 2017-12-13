@@ -18,8 +18,8 @@ mis	VER	manoir
 mise	VER	metre
 ou	PROCON	o
 par	PRE	par
-proece	NOM	pr�ece
-proesce	NOM	pr�ece
+proece	NOM	pröece
+proesce	NOM	pröece
 quar	CON:coord	car
 que	PROCON	que
 vos	PRO:pers	ous

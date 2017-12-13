@@ -45,7 +45,9 @@ infile = 'data/example2/process/p4_single_words_analyzed.txt'
 outfile = 'data/example2/process/p5_single_words_analyzed_clean.txt'
 patterns = [('_.*', ''),
             ('\d.*', ''),
-            ('\|.*', '')]
+            ('\|.*', ''),
+            ('�', 'ö'),
+            ('<nolem>', 'UNKNOWN')]
 t = open(infile).read()
 for (p1,p2) in patterns:
     print(p1)

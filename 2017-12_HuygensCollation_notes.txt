@@ -83,3 +83,10 @@ In the alignment table the orthographic variation is completely lost. It would b
 
 
 
+####################
+##
+## TO DO
+##
+####################
+
+NLP approaches (for instance, contextual information. Vd. Doc and readme TreeTagger, Article Kestemont)
