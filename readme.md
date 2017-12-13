@@ -48,18 +48,14 @@ Here below we will test the two approaches. As a case study, small portion of fo
 
 #### Goals of this study:
 
-- assess which is the most efficient method for isolating orthographical variation in Old French and, more in general, medieval texts in the context of automatic collation
+- assess which is the most efficient method for isolating orthographical variation in Old French and, more in general, medieval texts in the context of automatic collation. 
 - test the use of NLP resources in the pre-processing of data for automatic collation
 - further test and explore the near-match functionality in CollateX
 - present additional visualization and export options for normalized collations in CollateX
 
 ---
 
-In the example
-
-- [Example1](case_study/example1.ipynb) (easier, better starting from here)
-
-four ways will be tested.
+Example available in [case_study](case_study) dir.
 
 The results that better comply with the scholar's expectations ("ideal results") are reached using manual normalization (2a. Dictionary). They can be used for evaluating the others. 
 
@@ -84,7 +80,7 @@ The original forms are normalized using linguistic information automatically ext
 
 Lemmatization and POS tagging is performed with TreeTagger: parameters files are made available for Old French in the Medieval French Language Toolkit (https://github.com/sheiden/Medieval-French-Language-Toolkit). 
 
-The list of words with POS and lemma info, that works as a dictionary, is created using [create\_pos\_lemma.py](example1/create_pos_lemma.py).
+The list of words with POS and lemma info, that works as a dictionary, is created using [create\_dictionary\_using\_NLP.py](case_study/create_dictionary_using_NLP.py).
 
 N.b.: the first attempts suggest that the automatic linguistic analysis needs to be checked manually and often corrected in order to have good results. It's worth clarifying that the aim in this scenario is not to have an excellent level of lemma and POS recognition, but to avoid mismatches, thus an error is not relevant as long as it won't lead to missing the alignment. 
 
