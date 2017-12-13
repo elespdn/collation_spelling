@@ -36,7 +36,7 @@ outfile.close()
 infile = 'data/example2/process/p3_single_words.txt'
 outfile = 'data/example2/process/p4_single_words_analyzed.txt'
 open(outfile, 'w', encoding='utf-8')
-tagger = treetaggerwrapper.TreeTagger(TAGLANG='stein')
+tagger = treetaggerwrapper.TreeTagger(TAGLANG='stein')  ## already tried with ,TAGOUTENC='utf8' but does not change anything) 
 tagger.tag_file_to(infile, outfile)
 
 

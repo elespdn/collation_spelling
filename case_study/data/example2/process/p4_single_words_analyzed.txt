@@ -18,8 +18,8 @@ mis	VER	manoir|metre|mettre_M|CIM|M
 mise	VER	metre|mettre_IM|M
 ou	PROCON	o|o�_C|Td
 par	PRE	par_CIS
-proece	NOM	pr�ece_+IdTd
-proesce	NOM	pr�ece_+I
+proece	NOM	pröece_+IdTd
+proesce	NOM	pröece_+I
 quar	CON:coord	car_S
 que	PROCON	que2|que3|que_T|S|C
 vos	PRO:pers	ous2|vos1|vos_T|S|I
