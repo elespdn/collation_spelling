@@ -1,0 +1,15 @@
+Adonc	ADV	adonc_+GIT
+Lors	VER	Lors
+a	PRE	a3|a_+T|CGIS
+coment	ADV	coment1|coment_+T|I
+comment	ADV	coment1|coment_*+T|I
+conte	VER	conter_+I
+dame	NOM	dam|dame|dan2_+T|+CIT|+T
+del	PREDET:de	de+le_S
+du	PREDET:de	de+le|le_S|C
+la	DET:def	le_CST
+lac	NOM	lac_+IT
+li	DET:def	le_CST
+reine	NOM	regne|rein|r�ine1_+T|+T|+IdTTd
+roine	NOM	r�ine1|r�ine2_+IdTTd|+Td
+rois	NOM	roi2|rois1|rois2|roix_+I|+T|+T|+T
