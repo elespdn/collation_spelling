@@ -53,39 +53,15 @@ Attention to 'chevalier' vs 'chevalerie'; it might seem orthographic variation, 
 
 
 
-
 ####################
 ##
-## PROCEDURES
+## NEAR MATCH
 ##
 ####################
-
-
-Our ideal result is the one obtained using the dictionary (created manually), option 2.
-
-0. Nothing
-1. Near_match
-2. Dictionary (manual)
-3. Dictionary (NLP)
-
-
 
 Near_match after the exact match (initial) looks at variations and gaps
 
 Nearmatch works on the entire set as result of the first exact match
-
-
-
-
-
-####################
-##
-## TEMP CONCLUSIONS
-##
-####################
-
-
-Creation of a dictionary manually requires a lot of manual work and leads to the best result. Not scalable.
 
 
 
@@ -125,5 +101,7 @@ To do after (Ele)
 
 - Train TreeTagger with FROLEX lexicon available at <https://github.com/sheiden/Medieval-French-Language-Toolkit>
 
-
 - Study NLP approaches (for instance, contextual information. Vd. Doc and readme TreeTagger, Article Kestemont)
+
+
+

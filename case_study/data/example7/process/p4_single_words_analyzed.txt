@@ -1,0 +1,15 @@
+al	PREDET:a	a+le|le_S|C
+fame	NOM	fame|feme_+T|+CI
+file	VER	filer_+M
+fille	NOM	fille_+CIT
+genievre	NPR	<nolem>
+guenevre	NPR	guenevre
+guenievre	NPR	<nolem>
+la	ADV	l�_+IIdTd
+le	DET:def	le_CST
+leodagain	NOM	leodagain
+leodagan	NPR	<nolem>
+reine	NOM	regne|rein|r�ine1_+T|+T|+IdTTd
+roi	NOM	ri|roi1|roi2|roi3|rois1|roit2|roiz|r�4_+T|+T|+IT|+T|+T|+T|+T|+T
+roine	NOM	r�ine1|r�ine2_+IdTTd|+Td
+ta	NPR	<nolem>

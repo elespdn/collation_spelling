@@ -1,0 +1,15 @@
+al	PREDET:a	a+le|le
+fame	NOM	fame|feme
+file	VER	filer
+fille	NOM	fille
+genievre	NPR	UNKNOWN
+guenevre	NPR	guenevre
+guenievre	NPR	UNKNOWN
+la	ADV	lö
+le	DET:def	le
+leodagain	NOM	leodagain
+leodagan	NPR	UNKNOWN
+reine	NOM	regne|rein|röine
+roi	NOM	ri|roi
+roine	NOM	röine
+ta	NPR	UNKNOWN
