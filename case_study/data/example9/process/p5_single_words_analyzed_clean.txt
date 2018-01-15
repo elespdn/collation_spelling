@@ -1,0 +1,17 @@
+aportoit	VER	aporter
+bel	ADJ	bel
+biau	ADJ	bel
+coers	NOM	cuer
+cuers	NOM	cuer
+il	PRO:pers	il
+li	PRO:pers	ele|il
+mais	CON:coord	mais
+mes	CON:subord	UNKNOWN
+monstra	VER	mostrer
+monstroit	VER	mostrer
+mostre	VER	mostrer
+ne	PRO:clit	en
+plus	ADV	plus
+que	PROCON	que
+samblant	VER	sambler|sanler
+semblant	NOM	semblant

@@ -1,0 +1,8 @@
+ambedui	ADJ:card	ambedos_Z
+andui	ADJ:card	ambedos_*I
+corecie	VER	corrocier_+M
+corocie	VER	corrocier_*+T
+corrocie	VER	corrocier_*+IT
+il	PRO:pers	il_CIST
+molt	ADV	mout_I
+sont	VER	estre1|estre_+I|CMI
