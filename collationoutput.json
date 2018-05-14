@@ -1,10 +1,3 @@
-
-## !!! Probabilmente NON SERVONO n (normalized alignment) e p (normalized interpretation), ma solo l'originale (t) e quello normalizzato (n) bastano.
-## Ora da questo json dobbiamo tirare fuori una html table come la vogliamo noi, ovvero
-# rosso, quando n sono diversi
-# verde, quando n e t sono uguali
-# giallo, quando n sono uguali, ma t diversi
-
 {
     "table": [
         [

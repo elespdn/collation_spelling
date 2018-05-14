@@ -1,0 +1,34 @@
+
+
+
+!!! Probabilmente NON SERVONO n (normalized alignment) e p (normalized interpretation), ma solo l'originale (t) e quello normalizzato (n) bastano.
+
+
+
+Da questo json (collateoutput.json) dobbiamo tirare fuori una html table come la vogliamo noi, ovvero:
+
+1. righe:
+una riga per original (con colori) e una per normalized (senza colori)
+
+2. colori:
+RED, quando n di tutti i tokens della riga sono diversi --> if n in row[1] !=
+GREEN, quando n e t di tutti i tokens della riga sono uguali --> if n in row[1] = AND t in row[1] =
+YELLOW, quando n di tutti i tokens della linea sono uguali, ma t sono diversi --> if n in row[1] = AND t in row[1] !=
+
+
+
+ESEMPIO
+Lors / Lors			Lors / Lors			Lors / Lors			Adonc / Adonc			RED
+-					-					-					li						RED
+conte / conte		conte / conte		conte / conte		conte / conte			GREEN
+li / li				li / li				li / li				li / li					GREEN
+rois / rois			rois / rois			rois / rois			rois / rois				RED
+coment / coment		coment / coment		coment / coment		comment / coment		YELLOW
+la / la				la / la				la / la				la / la					GREEN
+reine / reine		reine / reine		roine / reine		-						RED
+
+
+		
+Se uso una library tipo json2html in python, funziona, ma l'output ricalca esattamente il json (ovviamente), che non è quello che voglio
+
+FIRST THINK TO DO: How to read a json file in python !!!
