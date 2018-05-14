@@ -1,0 +1,8 @@
+atorner	VER	atorner_+IT
+deit	VER	devoir|dire_+IM|+M
+doit	VER	devoir|dire_+CMI|+M
+li	PRO:pers	ele|il_C|CIST
+mie	ADV	mie_C
+ne	PROCON	ni_C
+on	PRO:invar	on_CS
+pas	NOM	pas|past2_+IT|+T
