@@ -10,7 +10,7 @@ Examples | Case studies:
 
 ### Normalization for the alignment and for the analysis
 
-Normalization is performed in step 2 and in step 4 of the Gothenburg model, and then visualized in step 5. For each token, two optional properties can be linked, with the normalized form for a correct alignemnt and with the normalized form for analyis. Exploring visualization.
+Normalization is performed in step 2 and in step 4 of the Gothenburg model, and then visualized in step 5. For each token, two optional properties can be linked: the normalized form for a correct alignemnt and the normalized form for the analyis. Exploring visualization.
 
 - Example 4
 
