@@ -1,0 +1,70 @@
+{
+	"table": [
+				[
+					[{
+						"_sigil": "W1",
+						"_token_array_position": 0,
+						"n": "Lors",
+						"p": "Lors",
+						"t": "Lors "
+					}],
+					[{
+						"_sigil": "W2",
+						"_token_array_position": 13,
+						"n": "Lors",
+						"p": "Lors",
+						"t": "Lors "
+					}],
+					[{
+						"_sigil": "W3",
+						"_token_array_position": 26,
+						"n": "Lors",
+						"p": "Lors",
+						"t": "Lors "
+					}],
+					[{
+						"_sigil": "W4",
+						"_token_array_position": 39,
+						"n": "Adonc",
+						"p": "Adonc",
+						"t": "Adonc "
+					}]
+				],
+				[
+					[{
+						"_sigil": "W1",
+						"_token_array_position": 1,
+						"n": "conte",
+						"p": "conte",
+						"t": "conte "
+					}],
+					[{
+						"_sigil": "W2",
+						"_token_array_position": 14,
+						"n": "conte",
+						"p": "conte",
+						"t": "conte "
+					}],
+					[{
+						"_sigil": "W3",
+						"_token_array_position": 27,
+						"n": "conte",
+						"p": "conte",
+						"t": "conte "
+					}],
+					[{
+						"_sigil": "W4",
+						"_token_array_position": 41,
+						"n": "conte",
+						"p": "conte",
+						"t": "conte "
+					}]
+				]
+			],
+	"witnesses": [
+		"W1",
+		"W2",
+		"W3",
+		"W4"
+	]
+}

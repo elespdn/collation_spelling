@@ -1,4 +1,18 @@
 
+_________________ approccio tei - NON SCELTO ______________________________
+
+
+output in tei --> bisognerebbe cambiare tutto l'ordine:
+- collate and output
+- nlp on tei output
+- analysis and transformation
+This means that the collation is done on the original, not on the lemmas+morphosyntacticFeature
+
+
+
+
+
+__________________  approccio json - SCELTO _________________________________
 
 
 !!! Probabilmente NON SERVONO n (normalized alignment) e p (normalized interpretation), ma solo l'originale (t) e quello normalizzato (n) bastano.
