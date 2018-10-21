@@ -61,7 +61,7 @@ Attention to 'chevalier' vs 'chevalerie'; it might seem orthographic variation, 
 
 Near_match after the exact match (initial) looks at variations and gaps
 
-Nearmatch works on the entire set as result of the first exact match
+Nearmatch works on the entire set as result of the first exact match and readjust the graph
 
 
 
