@@ -1,0 +1,22 @@
+<html>
+        <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <title>Test collation with normalized tokens</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">x</script>
+        <script type="text/javascript">  
+                $(document).ready(function(){
+                    $("tr[type='orig']").click(function(){
+                        $(this).next().toggle();
+                    });
+                });
+        </script>
+        <style>
+             tr[type="normAll"] {display: none;}
+             tr[type="norm"] {display: none;}
+             td, th {padding: 20px;border: 1px solid grey; width:100px}
+             table {border-collapse: collapse;}
+             .variant {background-color:yellow}
+             .invariant {background-color:lightgray}
+             .formal_variant {background-color:darkgray}
+        </style>
+        </head><body><table border="1"><thead><tr><th>W1</th><th>W2</th><th>W3</th></tr></thead><tbody><tr class="invariant" id="row0_orig" type="orig"><td ana="DETdef_le">la</td><td ana="DETdef_le">la</td><td ana="DETdef_le">la</td></tr><tr id="row0_norm" type="norm"><td>DETdef_le</td><td>DETdef_le</td><td>DETdef_le</td></tr><tr class="formal_variant" id="row1_orig" type="orig"><td ana="NOMcom_regne|rein|röine">reine</td><td ana="NOMcom_röine">roine</td><td ana="NOMcom_röine">roine</td></tr><tr id="row1_norm" type="norm"><td>NOMcom_regne|rein|röine</td><td>NOMcom_röine</td><td>NOMcom_röine</td></tr><tr class="variant" id="row2_orig" type="orig"><td ana="VERinf_UNKNOWN">guenievre</td><td ana="VERinf_guenevre">guenevre</td><td ana="NOMcom_UNKNOWN">genievre</td></tr><tr id="row2_norm" type="norm"><td>VERinf_UNKNOWN</td><td>VERinf_guenevre</td><td>NOMcom_UNKNOWN</td></tr><tr class="variant" id="row3_orig" type="orig"><td ana="DETpos_ton">ta</td><td ana="DETdef_le">la</td><td ana="DETdef_le">la</td></tr><tr id="row3_norm" type="norm"><td>DETpos_ton</td><td>DETdef_le</td><td>DETdef_le</td></tr><tr class="variant" id="row4_orig" type="orig"><td ana="NOMcom_fame|feme">fame</td><td ana="_"> - </td><td ana="_"> - </td></tr><tr id="row4_norm" type="norm"><td>NOMcom_fame|feme</td><td>_</td><td>_</td></tr><tr class="formal_variant" id="row5_orig" type="orig"><td ana="NOMcom_fille">fille</td><td ana="NOMcom_fille">fille</td><td ana="NOMcom_fille">file</td></tr><tr id="row5_norm" type="norm"><td>NOMcom_fille</td><td>NOMcom_fille</td><td>NOMcom_fille</td></tr><tr class="variant" id="row6_orig" type="orig"><td ana="DETdef_le">le</td><td ana="PRE.DETdef_a+le|le">al</td><td ana="PRE.DETdef_a+le|le">al</td></tr><tr id="row6_norm" type="norm"><td>DETdef_le</td><td>PRE.DETdef_a+le|le</td><td>PRE.DETdef_a+le|le</td></tr><tr class="invariant" id="row7_orig" type="orig"><td ana="NOMcom_ri|roi">roi</td><td ana="NOMcom_ri|roi">roi</td><td ana="NOMcom_ri|roi">roi</td></tr><tr id="row7_norm" type="norm"><td>NOMcom_ri|roi</td><td>NOMcom_ri|roi</td><td>NOMcom_ri|roi</td></tr><tr class="variant" id="row8_orig" type="orig"><td ana="NOMpro_leodagain">leodagain</td><td ana="ADJqua_UNKNOWN">leodagan</td><td ana="ADJqua_UNKNOWN">leodagan</td></tr><tr id="row8_norm" type="norm"><td>NOMpro_leodagain</td><td>ADJqua_UNKNOWN</td><td>ADJqua_UNKNOWN</td></tr></tbody></table></body></html>

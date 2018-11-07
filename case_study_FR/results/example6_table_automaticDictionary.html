@@ -1,0 +1,22 @@
+<html>
+        <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <title>Test collation with normalized tokens</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">x</script>
+        <script type="text/javascript">  
+                $(document).ready(function(){
+                    $("tr[type='orig']").click(function(){
+                        $(this).next().toggle();
+                    });
+                });
+        </script>
+        <style>
+             tr[type="normAll"] {display: none;}
+             tr[type="norm"] {display: none;}
+             td, th {padding: 20px;border: 1px solid grey; width:100px}
+             table {border-collapse: collapse;}
+             .variant {background-color:yellow}
+             .invariant {background-color:lightgray}
+             .formal_variant {background-color:darkgray}
+        </style>
+        </head><body><table border="1"><thead><tr><th>W1</th><th>W2</th><th>W3</th></tr></thead><tbody><tr class="variant" id="row0_orig" type="orig"><td ana="CONcoo_UNKNOWN">mes</td><td ana="ADVgen_mais">mais</td><td ana="ADVgen_mais">mais</td></tr><tr id="row0_norm" type="norm"><td>CONcoo_UNKNOWN</td><td>ADVgen_mais</td><td>ADVgen_mais</td></tr><tr class="variant" id="row1_orig" type="orig"><td ana="_"> - </td><td ana="VERcjg_mostrer">monstroit</td><td ana="_"> - </td></tr><tr id="row1_norm" type="norm"><td>_</td><td>VERcjg_mostrer</td><td>_</td></tr><tr class="invariant" id="row2_orig" type="orig"><td ana="PROper_il">il</td><td ana="PROper_il">il</td><td ana="PROper_il">il</td></tr><tr id="row2_norm" type="norm"><td>PROper_il</td><td>PROper_il</td><td>PROper_il</td></tr><tr class="variant" id="row3_orig" type="orig"><td ana="VERcjg_mostrer">mostre</td><td ana="_"> - </td><td ana="VERcjg_mostrer">monstra</td></tr><tr id="row3_norm" type="norm"><td>VERcjg_mostrer</td><td>_</td><td>VERcjg_mostrer</td></tr><tr class="invariant" id="row4_orig" type="orig"><td ana="ADVgen_plus">plus</td><td ana="ADVgen_plus">plus</td><td ana="ADVgen_plus">plus</td></tr><tr id="row4_norm" type="norm"><td>ADVgen_plus</td><td>ADVgen_plus</td><td>ADVgen_plus</td></tr><tr class="formal_variant" id="row5_orig" type="orig"><td ana="ADJqua_bel">biau</td><td ana="ADJqua_bel">bel</td><td ana="ADJqua_bel">bel</td></tr><tr id="row5_norm" type="norm"><td>ADJqua_bel</td><td>ADJqua_bel</td><td>ADJqua_bel</td></tr><tr class="formal_variant" id="row6_orig" type="orig"><td ana="NOMcom_semblant">semblant</td><td ana="NOMcom_semblant">samblant</td><td ana="NOMcom_semblant">samblant</td></tr><tr id="row6_norm" type="norm"><td>NOMcom_semblant</td><td>NOMcom_semblant</td><td>NOMcom_semblant</td></tr><tr class="invariant" id="row7_orig" type="orig"><td ana="CONsub_que">que</td><td ana="CONsub_que">que</td><td ana="CONsub_que">que</td></tr><tr id="row7_norm" type="norm"><td>CONsub_que</td><td>CONsub_que</td><td>CONsub_que</td></tr><tr class="invariant" id="row8_orig" type="orig"><td ana="PROper_ele|il">li</td><td ana="PROper_ele|il">li</td><td ana="PROper_ele|il">li</td></tr><tr id="row8_norm" type="norm"><td>PROper_ele|il</td><td>PROper_ele|il</td><td>PROper_ele|il</td></tr><tr class="formal_variant" id="row9_orig" type="orig"><td ana="NOMcom_cuer">cuers</td><td ana="NOMcom_cuer">cuers</td><td ana="NOMcom_cuer">coers</td></tr><tr id="row9_norm" type="norm"><td>NOMcom_cuer</td><td>NOMcom_cuer</td><td>NOMcom_cuer</td></tr><tr class="invariant" id="row10_orig" type="orig"><td ana="ADVneg_ni">ne</td><td ana="ADVneg_ni">ne</td><td ana="ADVneg_ni">ne</td></tr><tr id="row10_norm" type="norm"><td>ADVneg_ni</td><td>ADVneg_ni</td><td>ADVneg_ni</td></tr><tr class="invariant" id="row11_orig" type="orig"><td ana="PROper_ele|il">li</td><td ana="PROper_ele|il">li</td><td ana="PROper_ele|il">li</td></tr><tr id="row11_norm" type="norm"><td>PROper_ele|il</td><td>PROper_ele|il</td><td>PROper_ele|il</td></tr><tr class="invariant" id="row12_orig" type="orig"><td ana="VERcjg_aporter">aportoit</td><td ana="VERcjg_aporter">aportoit</td><td ana="VERcjg_aporter">aportoit</td></tr><tr id="row12_norm" type="norm"><td>VERcjg_aporter</td><td>VERcjg_aporter</td><td>VERcjg_aporter</td></tr></tbody></table></body></html>

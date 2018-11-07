@@ -1,0 +1,22 @@
+<html>
+        <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <title>Test collation with normalized tokens</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">x</script>
+        <script type="text/javascript">  
+                $(document).ready(function(){
+                    $("tr[type='orig']").click(function(){
+                        $(this).next().toggle();
+                    });
+                });
+        </script>
+        <style>
+             tr[type="normAll"] {display: none;}
+             tr[type="norm"] {display: none;}
+             td, th {padding: 20px;border: 1px solid grey; width:100px}
+             table {border-collapse: collapse;}
+             .variant {background-color:yellow}
+             .invariant {background-color:lightgray}
+             .formal_variant {background-color:darkgray}
+        </style>
+        </head><body><table border="1"><thead><tr><th>W1</th><th>W2</th><th>W3</th></tr></thead><tbody><tr class="invariant" id="row0_orig" type="orig"><td ana="il">il</td><td ana="il">il</td><td ana="il">il</td></tr><tr id="row0_norm" type="norm"><td>il</td><td>il</td><td>il</td></tr><tr class="invariant" id="row1_orig" type="orig"><td ana="sont">sont</td><td ana="sont">sont</td><td ana="sont">sont</td></tr><tr id="row1_norm" type="norm"><td>sont</td><td>sont</td><td>sont</td></tr><tr class="variant" id="row2_orig" type="orig"><td ana="andui">andui</td><td ana="andui">andui</td><td ana="ambedui">ambedui</td></tr><tr id="row2_norm" type="norm"><td>andui</td><td>andui</td><td>ambedui</td></tr><tr class="variant" id="row3_orig" type="orig"><td ana="molt">molt</td><td ana="molt">molt</td><td ana="corecie">corecie</td></tr><tr id="row3_norm" type="norm"><td>molt</td><td>molt</td><td>corecie</td></tr><tr class="variant" id="row4_orig" type="orig"><td ana="corrocie">corrocie</td><td ana="corocie">corocie</td><td ana="_"> - </td></tr><tr id="row4_norm" type="norm"><td>corrocie</td><td>corocie</td><td> - </td></tr></tbody></table></body></html>

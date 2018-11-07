@@ -1,0 +1,22 @@
+<html>
+        <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <title>Test collation with normalized tokens</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">x</script>
+        <script type="text/javascript">  
+                $(document).ready(function(){
+                    $("tr[type='orig']").click(function(){
+                        $(this).next().toggle();
+                    });
+                });
+        </script>
+        <style>
+             tr[type="normAll"] {display: none;}
+             tr[type="norm"] {display: none;}
+             td, th {padding: 20px;border: 1px solid grey; width:100px}
+             table {border-collapse: collapse;}
+             .variant {background-color:yellow}
+             .invariant {background-color:lightgray}
+             .formal_variant {background-color:darkgray}
+        </style>
+        </head><body><table border="1"><thead><tr><th>W1</th><th>W2</th><th>W3</th></tr></thead><tbody><tr class="invariant" id="row0_orig" type="orig"><td ana="PROper_il">il</td><td ana="PROper_il">il</td><td ana="PROper_il">il</td></tr><tr id="row0_norm" type="norm"><td>PROper_il</td><td>PROper_il</td><td>PROper_il</td></tr><tr class="invariant" id="row1_orig" type="orig"><td ana="VERcjg_estre">sont</td><td ana="VERcjg_estre">sont</td><td ana="VERcjg_estre">sont</td></tr><tr id="row1_norm" type="norm"><td>VERcjg_estre</td><td>VERcjg_estre</td><td>VERcjg_estre</td></tr><tr class="formal_variant" id="row2_orig" type="orig"><td ana="PROcar_ambedos">andui</td><td ana="PROcar_ambedos">andui</td><td ana="PROcar_ambedos">ambedui</td></tr><tr id="row2_norm" type="norm"><td>PROcar_ambedos</td><td>PROcar_ambedos</td><td>PROcar_ambedos</td></tr><tr class="variant" id="row3_orig" type="orig"><td ana="ADVgen_mout">molt</td><td ana="ADVgen_mout">molt</td><td ana="_"> - </td></tr><tr id="row3_norm" type="norm"><td>ADVgen_mout</td><td>ADVgen_mout</td><td>_</td></tr><tr class="formal_variant" id="row4_orig" type="orig"><td ana="VERppe_corrocier">corrocie</td><td ana="VERppe_corrocier">corocie</td><td ana="VERppe_corrocier">corecie</td></tr><tr id="row4_norm" type="norm"><td>VERppe_corrocier</td><td>VERppe_corrocier</td><td>VERppe_corrocier</td></tr></tbody></table></body></html>

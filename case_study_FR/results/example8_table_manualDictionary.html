@@ -1,0 +1,22 @@
+<html>
+        <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <title>Test collation with normalized tokens</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">x</script>
+        <script type="text/javascript">  
+                $(document).ready(function(){
+                    $("tr[type='orig']").click(function(){
+                        $(this).next().toggle();
+                    });
+                });
+        </script>
+        <style>
+             tr[type="normAll"] {display: none;}
+             tr[type="norm"] {display: none;}
+             td, th {padding: 20px;border: 1px solid grey; width:100px}
+             table {border-collapse: collapse;}
+             .variant {background-color:yellow}
+             .invariant {background-color:lightgray}
+             .formal_variant {background-color:darkgray}
+        </style>
+        </head><body><table border="1"><thead><tr><th>W1</th><th>W2</th><th>W3</th></tr></thead><tbody><tr class="invariant" id="row0_orig" type="orig"><td ana="ne">ne</td><td ana="ne">ne</td><td ana="ne">ne</td></tr><tr id="row0_norm" type="norm"><td>ne</td><td>ne</td><td>ne</td></tr><tr class="variant" id="row1_orig" type="orig"><td ana="deit">deit</td><td ana="li">li</td><td ana="li">li</td></tr><tr id="row1_norm" type="norm"><td>deit</td><td>li</td><td>li</td></tr><tr class="variant" id="row2_orig" type="orig"><td ana="_"> - </td><td ana="doit">doit</td><td ana="doit">doit</td></tr><tr id="row2_norm" type="norm"><td> - </td><td>doit</td><td>doit</td></tr><tr class="variant" id="row3_orig" type="orig"><td ana="_"> - </td><td ana="on">on</td><td ana="_"> - </td></tr><tr id="row3_norm" type="norm"><td> - </td><td>on</td><td> - </td></tr><tr class="formal_variant" id="row4_orig" type="orig"><td ana="mie">mie</td><td ana="mie">pas</td><td ana="mie">pas</td></tr><tr id="row4_norm" type="norm"><td>mie</td><td>mie</td><td>mie</td></tr><tr class="invariant" id="row5_orig" type="orig"><td ana="atorner">atorner</td><td ana="atorner">atorner</td><td ana="atorner">atorner</td></tr><tr id="row5_norm" type="norm"><td>atorner</td><td>atorner</td><td>atorner</td></tr></tbody></table></body></html>

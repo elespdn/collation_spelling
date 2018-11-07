@@ -1,8 +1,0 @@
-atorner	VER	atorner
-deit	VER	devoir|dire
-doit	VER	devoir|dire
-li	PRO:pers	ele|il
-mie	ADV	mie
-ne	PROCON	ni
-on	PRO:invar	on
-pas	NOM	pas|past

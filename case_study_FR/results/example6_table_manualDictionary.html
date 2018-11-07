@@ -1,0 +1,22 @@
+<html>
+        <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <title>Test collation with normalized tokens</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">x</script>
+        <script type="text/javascript">  
+                $(document).ready(function(){
+                    $("tr[type='orig']").click(function(){
+                        $(this).next().toggle();
+                    });
+                });
+        </script>
+        <style>
+             tr[type="normAll"] {display: none;}
+             tr[type="norm"] {display: none;}
+             td, th {padding: 20px;border: 1px solid grey; width:100px}
+             table {border-collapse: collapse;}
+             .variant {background-color:yellow}
+             .invariant {background-color:lightgray}
+             .formal_variant {background-color:darkgray}
+        </style>
+        </head><body><table border="1"><thead><tr><th>W1</th><th>W2</th><th>W3</th></tr></thead><tbody><tr class="variant" id="row0_orig" type="orig"><td ana="mes">mes</td><td ana="mais">mais</td><td ana="mais">mais</td></tr><tr id="row0_norm" type="norm"><td>mes</td><td>mais</td><td>mais</td></tr><tr class="variant" id="row1_orig" type="orig"><td ana="_"> - </td><td ana="monstroit">monstroit</td><td ana="_"> - </td></tr><tr id="row1_norm" type="norm"><td> - </td><td>monstroit</td><td> - </td></tr><tr class="invariant" id="row2_orig" type="orig"><td ana="il">il</td><td ana="il">il</td><td ana="il">il</td></tr><tr id="row2_norm" type="norm"><td>il</td><td>il</td><td>il</td></tr><tr class="variant" id="row3_orig" type="orig"><td ana="mostre">mostre</td><td ana="_"> - </td><td ana="monstra">monstra</td></tr><tr id="row3_norm" type="norm"><td>mostre</td><td> - </td><td>monstra</td></tr><tr class="invariant" id="row4_orig" type="orig"><td ana="plus">plus</td><td ana="plus">plus</td><td ana="plus">plus</td></tr><tr id="row4_norm" type="norm"><td>plus</td><td>plus</td><td>plus</td></tr><tr class="formal_variant" id="row5_orig" type="orig"><td ana="bel">biau</td><td ana="bel">bel</td><td ana="bel">bel</td></tr><tr id="row5_norm" type="norm"><td>bel</td><td>bel</td><td>bel</td></tr><tr class="variant" id="row6_orig" type="orig"><td ana="semblant">semblant</td><td ana="samblant">samblant</td><td ana="samblant">samblant</td></tr><tr id="row6_norm" type="norm"><td>semblant</td><td>samblant</td><td>samblant</td></tr><tr class="invariant" id="row7_orig" type="orig"><td ana="que">que</td><td ana="que">que</td><td ana="que">que</td></tr><tr id="row7_norm" type="norm"><td>que</td><td>que</td><td>que</td></tr><tr class="invariant" id="row8_orig" type="orig"><td ana="li">li</td><td ana="li">li</td><td ana="li">li</td></tr><tr id="row8_norm" type="norm"><td>li</td><td>li</td><td>li</td></tr><tr class="variant" id="row9_orig" type="orig"><td ana="cuers">cuers</td><td ana="cuers">cuers</td><td ana="coers">coers</td></tr><tr id="row9_norm" type="norm"><td>cuers</td><td>cuers</td><td>coers</td></tr><tr class="invariant" id="row10_orig" type="orig"><td ana="ne">ne</td><td ana="ne">ne</td><td ana="ne">ne</td></tr><tr id="row10_norm" type="norm"><td>ne</td><td>ne</td><td>ne</td></tr><tr class="invariant" id="row11_orig" type="orig"><td ana="li">li</td><td ana="li">li</td><td ana="li">li</td></tr><tr id="row11_norm" type="norm"><td>li</td><td>li</td><td>li</td></tr><tr class="invariant" id="row12_orig" type="orig"><td ana="aportoit">aportoit</td><td ana="aportoit">aportoit</td><td ana="aportoit">aportoit</td></tr><tr id="row12_norm" type="norm"><td>aportoit</td><td>aportoit</td><td>aportoit</td></tr></tbody></table></body></html>

@@ -1,8 +1,0 @@
-ambedui	ADJ:card	ambedos
-andui	ADJ:card	ambedos
-corecie	VER	corrocier
-corocie	VER	corrocier
-corrocie	VER	corrocier
-il	PRO:pers	il
-molt	ADV	mout
-sont	VER	estre

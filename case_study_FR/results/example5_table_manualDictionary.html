@@ -1,0 +1,22 @@
+<html>
+        <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <title>Test collation with normalized tokens</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">x</script>
+        <script type="text/javascript">  
+                $(document).ready(function(){
+                    $("tr[type='orig']").click(function(){
+                        $(this).next().toggle();
+                    });
+                });
+        </script>
+        <style>
+             tr[type="normAll"] {display: none;}
+             tr[type="norm"] {display: none;}
+             td, th {padding: 20px;border: 1px solid grey; width:100px}
+             table {border-collapse: collapse;}
+             .variant {background-color:yellow}
+             .invariant {background-color:lightgray}
+             .formal_variant {background-color:darkgray}
+        </style>
+        </head><body><table border="1"><thead><tr><th>W1</th><th>W2</th><th>W3</th></tr></thead><tbody><tr class="variant" id="row0_orig" type="orig"><td ana="ge">ge</td><td ana="Artu">Artu</td><td ana="Artus">Artus</td></tr><tr id="row0_norm" type="norm"><td>ge</td><td>Artu</td><td>Artus</td></tr><tr class="variant" id="row1_orig" type="orig"><td ana="_"> - </td><td ana="je">je</td><td ana="je">je</td></tr><tr id="row1_norm" type="norm"><td> - </td><td>je</td><td>je</td></tr><tr class="invariant" id="row2_orig" type="orig"><td ana="te">te</td><td ana="te">te</td><td ana="te">te</td></tr><tr id="row2_norm" type="norm"><td>te</td><td>te</td><td>te</td></tr><tr class="invariant" id="row3_orig" type="orig"><td ana="conois">conois</td><td ana="conois">conois</td><td ana="conois">conois</td></tr><tr id="row3_norm" type="norm"><td>conois</td><td>conois</td><td>conois</td></tr><tr class="variant" id="row4_orig" type="orig"><td ana="mielz">mielz</td><td ana="miels">miels</td><td ana="mult">mult</td></tr><tr id="row4_norm" type="norm"><td>mielz</td><td>miels</td><td>mult</td></tr><tr class="variant" id="row5_orig" type="orig"><td ana="_"> - </td><td ana="_"> - </td><td ana="miaus">miaus</td></tr><tr id="row5_norm" type="norm"><td> - </td><td> - </td><td>miaus</td></tr><tr class="invariant" id="row6_orig" type="orig"><td ana="que">que</td><td ana="que">que</td><td ana="que">que</td></tr><tr id="row6_norm" type="norm"><td>que</td><td>que</td><td>que</td></tr><tr class="invariant" id="row7_orig" type="orig"><td ana="tu">tu</td><td ana="tu">tu</td><td ana="tu">tu</td></tr><tr id="row7_norm" type="norm"><td>tu</td><td>tu</td><td>tu</td></tr><tr class="invariant" id="row8_orig" type="orig"><td ana="ne">ne</td><td ana="ne">ne</td><td ana="ne">ne</td></tr><tr id="row8_norm" type="norm"><td>ne</td><td>ne</td><td>ne</td></tr><tr class="variant" id="row9_orig" type="orig"><td ana="conois">conois</td><td ana="fes">fes</td><td ana="fas">fas</td></tr><tr id="row9_norm" type="norm"><td>conois</td><td>fes</td><td>fas</td></tr><tr class="invariant" id="row10_orig" type="orig"><td ana="moi">moi</td><td ana="moi">moi</td><td ana="moi">moi</td></tr><tr id="row10_norm" type="norm"><td>moi</td><td>moi</td><td>moi</td></tr><tr class="invariant" id="row11_orig" type="orig"><td ana="et">et</td><td ana="et">et</td><td ana="et">et</td></tr><tr id="row11_norm" type="norm"><td>et</td><td>et</td><td>et</td></tr><tr class="invariant" id="row12_orig" type="orig"><td ana="neporquant">neporquant</td><td ana="neporquant">neporquant</td><td ana="neporquant">neporquant</td></tr><tr id="row12_norm" type="norm"><td>neporquant</td><td>neporquant</td><td>neporquant</td></tr><tr class="invariant" id="row13_orig" type="orig"><td ana="tu">tu</td><td ana="tu">tu</td><td ana="tu">tu</td></tr><tr id="row13_norm" type="norm"><td>tu</td><td>tu</td><td>tu</td></tr><tr class="invariant" id="row14_orig" type="orig"><td ana="me">me</td><td ana="me">me</td><td ana="me">me</td></tr><tr id="row14_norm" type="norm"><td>me</td><td>me</td><td>me</td></tr><tr class="invariant" id="row15_orig" type="orig"><td ana="conoistras">conoistras</td><td ana="conoistras">conoistras</td><td ana="conoistras">conoistras</td></tr><tr id="row15_norm" type="norm"><td>conoistras</td><td>conoistras</td><td>conoistras</td></tr><tr class="variant" id="row16_orig" type="orig"><td ana="bien">bien</td><td ana="miels">miels</td><td ana="bien">bien</td></tr><tr id="row16_norm" type="norm"><td>bien</td><td>miels</td><td>bien</td></tr></tbody></table></body></html>
