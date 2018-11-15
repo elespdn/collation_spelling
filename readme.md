@@ -1,3 +1,4 @@
+**Content**
 
 In this folder there are examples of automatic collation with different strategies for handling formal vs substantive textual variations.
 
@@ -6,23 +7,35 @@ The software used for collation is CollateX (Dekker-Middell 2011; Dekker et al. 
 The strategies are:
 
 - near match, i.e. in the alignment phase matches are found not only between equal tokens but also between similar tokens (edit distance value is set);
-- manual dictionary, containing formal variants and corresponding normalised form
+- manual dictionary, containing formal variants and corresponding normalised form;
 - automatic dictionary, i.e. a dictionary with normalised forms created from linguistic analysis of tokens, in particular "POS_lemma".
 
 
-Examples in various languages; for French and Spanish, NLP tools are available:
+Examples in various languages. For French and Spanish, NLP tools are available:
 
-- for Old Spanish, Freeling with dedicated module (Padró-Stanilovsky 2012; Boleda 2011; Porta et al. 2013). 
-- for Old French, TreeTagger with two modules gathered in the Medieval French Language Toolkit (Schmid 1994; <https://github.com/sheiden/Medieval-French-Language-Toolkit>)-
+- for Old Spanish, Freeling with dedicated module (Padró-Stanilovsky 2012; Boleda 2011; Porta et al. 2013);
+- for Old French, TreeTagger with two modules gathered in the Medieval French Language Toolkit (Schmid 1994; <https://github.com/sheiden/Medieval-French-Language-Toolkit>).
 
 Both can be integrated, using an API or a Python Wrapper (TreeTagger).
 
 For Italian, only manual dictionary is available.
 
 
+**Organization**
+
+There is a folder for each language. Inside them, there are examples in Jupyter notebooks and folders for:
+
+- data, containing the texts of the witnesses
+- dictionaries, containing the dictionaries; for normalization generated manually and automatically;
+- results, containing html tables with the results.
+
+The examples in the Jupyter notebooks can be visualized here and through the [nbviewer](http://nbviewer.jupyter.org/), or run with [Juypter](https://jupyter.org/).
+
+
+
 ---
 
-Biblio
+**Biblio**
 
 Boleda, Gemma. 2011. «Extending the tool, or how to annotate historical language varieties». In In Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities, 1–9.
 
