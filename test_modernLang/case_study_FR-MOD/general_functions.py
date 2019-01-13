@@ -42,26 +42,7 @@ def table_automaticDictionary(graph, dirName):
         </style>
         </head>"""
 
-    html += """<body>
-                    <div style="font-size:1.1em; margin: 50px">
-                        <p>This table has been automatically generated.
-                            <br/>The code and the documentation are available <a href="https://github.com/elespdn/collation_spelling" target="_blank">here</a>.
-                            <br/>In order to see the token used for the alignment, just click on a cell.
-                        </p>
-                        <p>Legend:
-                            <ul>
-                                <li>
-                                    <span class="variant">Substantive variant</span>
-                                </li>
-                                <li>
-                                    <span class="formal_variant">Formal variant</span>
-                                </li>
-                                <li>
-                                    <span class="invariant">Invariant</span>
-                                </li>
-                            </ul>
-                        </p>
-                    </div><table border="1"><thead><tr>"""  
+    html += """<body><table border="1"><thead><tr>"""  
     for x in dataIn['table']:
 	    if x[0] is not None:
 		    witName = x[0][0]['_sigil']    # define the witness name
@@ -224,27 +205,7 @@ def table_manualDictionary(graph, dirName):
         </style>
         </head>"""
 
-    html += """<body>
-                    <div style="font-size:1.1em; margin: 50px">
-                        <p>This table has been automatically generated.
-                            <br/>The code and the documentation are available <a href="https://github.com/elespdn/collation_spelling" target="_blank">here</a>.
-                            <br/>In order to see the token used for the alignment, just click on a cell.
-                        </p>
-                        <p>Legend:
-                            <ul>
-                                <li>
-                                    <span class="variant">Substantive variant</span>
-                                </li>
-                                <li>
-                                    <span class="formal_variant">Formal variant</span>
-                                </li>
-                                <li>
-                                    <span class="invariant">Invariant</span>
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
-                    <table border="1"><thead><tr>"""  
+    html += """<body><table border="1"><thead><tr>"""  
     for x in dataIn['table']:
 	    if x[0] is not None:
 		    witName = x[0][0]['_sigil']    # define the witness name
@@ -392,7 +353,7 @@ def tag_poslemma(dirName):
     entries = set()
     writer.writerow(['Original', 'Normalised'])
     for row in reader:
-        key = (row[0], row[1]) 
+        key = (row[0], row[1])
         if key not in entries:
             writer.writerow(row)
             entries.add(key)
