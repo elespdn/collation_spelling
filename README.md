@@ -1,5 +1,3 @@
-> See below for the Condorcet Workshop 2019 _Digital Philology and Medieval Text Processing Workflow_.
-
 # Strategies for the collation of medieval texts
 
 In this folder there are examples of automatic collation with different strategies for handling **spelling variation** in medieval languages and for automatically identifying **formal (graphic and phonetic) vs substantive** textual variants.
@@ -59,7 +57,7 @@ Schmid, Helmut. 1994. Probabilistic Part-of-Speech Tagging Using Decision Trees.
 ---
 
 
-## Step by step for testing
+## Step by step testing
 
 1. Download this repo:
     - Download this Github repository, using the green button 'Clone or download' above. Choose 'Download ZIP'.
@@ -78,6 +76,8 @@ Schmid, Helmut. 1994. Probabilistic Part-of-Speech Tagging Using Decision Trees.
     - Go to folder 'case_study_FR' and open 'example1.ipynb' (this is the extension of a Juypter notebook). The file will open in a new tab.
     - Select the first code cell (you'll see 'In [1]' on the left) just by placing your cursor into it and click. Then run the code using the 'Play' button in the bar above (8th button from left). The result will be (re)generated immediately. You can try with all the code cells below (all those having 'In' and a number on the left). The result will appear below each cell code.
     - Some of the results are saved in the 'Results' folder as html tables. You can open them not as Jupyter notebook, but going back to your file system and double-clicking them as with normal files. They should be open in a browser.
+
+5. Test with your own data
 
 
 
