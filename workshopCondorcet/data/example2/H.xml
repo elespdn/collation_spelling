@@ -1,0 +1,137 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <l n="3358" part="N">
+            <w lemma="a3" type="PRE|MORPH=empty" xml:id="w_H_001" part="N">A</w> 
+            <w lemma="il"
+               type="PROper|PERS.=3|NOMB.=s|GENRE=m|CAS=i"
+               xml:id="w_H_002"
+               part="N">lui</w> 
+            <w lemma="mëisme"
+               type="ADJind|NOMB.=s|GENRE=m|CAS=r"
+               xml:id="w_H_003"
+               part="N">meismes</w> 
+            <w lemma="soi1"
+               type="PROper|NOMB.=s|GENRE=m|CAS=r"
+               xml:id="w_H_004"
+               part="N">se</w> 
+            <w lemma="conseillier1"
+               type="VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s"
+               xml:id="w_H_005"
+               part="N">consoille</w>
+         </l>
+         <l n="3359" part="N">
+            <w lemma="auques"
+               type="NOMcom|NOMB.=s|GENRE=m|CAS=r"
+               xml:id="w_H_006"
+               part="N">Auquel</w> 
+            <w lemma="de"
+               type="PRE|MORPH=empty"
+               xml:id="w_H_007"
+               rend="elision"
+               part="N">d</w>
+            <pc part="N">'</pc>
+            <w lemma="a3+le"
+               type="PRE.PROper|NOMB.=p|GENRE=m|CAS=r"
+               xml:id="w_H_008"
+               part="N">aus</w> 
+            <pc part="N">.</pc>
+            <w lemma="dos"
+               type="PROcar|NOMB.=p|GENRE=m|CAS=r"
+               xml:id="w_H_009"
+               part="N">ii</w>
+            <pc part="N">.</pc> 
+            <w lemma="il"
+               type="PROper|PERS.=3|NOMB.=s|GENRE=m|CAS=n"
+               xml:id="w_H_010"
+               part="N">il</w> 
+            <w lemma="aidier"
+               type="VERcjg|MODE=ind|TEMPS=fut|PERS.=3|NOMB.=s"
+               xml:id="w_H_011"
+               part="N">aidera</w>
+         </l>
+         <l n="3360" part="N">
+            <w lemma="lors" type="ADVgen|DEGRE=-" xml:id="w_H_012" part="N">Lors</w> 
+            <w lemma="dire"
+               type="VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s"
+               xml:id="w_H_013"
+               part="N">dit</w> 
+            <w lemma="que4"
+               type="CONsub|MORPH=empty"
+               xml:id="w_H_014"
+               rend="elision"
+               part="N">qu</w>
+            <pc part="N">'</pc>
+            <w lemma="a3+le"
+               type="PRE.DETdef|NOMB.=s|GENRE=m|CAS=r"
+               xml:id="w_H_015"
+               part="N">au</w> 
+            <w lemma="lïon"
+               type="NOMcom|NOMB.=s|GENRE=m|CAS=r"
+               xml:id="w_H_016"
+               part="N">lyon</w> 
+            <w lemma="soi1"
+               type="PROper|NOMB.=s|GENRE=m|CAS=r"
+               xml:id="w_H_017"
+               part="N">se</w> 
+            <w lemma="tenir1"
+               type="VERcjg|MODE=ind|TEMPS=fut|PERS.=3|NOMB.=s"
+               xml:id="w_H_018"
+               part="N">tanra</w>
+         </l>
+         <l n="3361" part="N">
+            <w lemma="que4"
+               type="CONsub|MORPH=empty"
+               xml:id="w_H_019"
+               rend="elision"
+               part="N">Qu</w>
+            <pc part="N">'</pc>
+            <w lemma="a3" type="PRE|MORPH=empty" xml:id="w_H_020" part="N">a</w> 
+            <w lemma="venimos"
+               type="NOMcom|NOMB.=s|GENRE=m|CAS=r"
+               xml:id="w_H_021"
+               part="N">venimeus</w> 
+            <w lemma="ne2" type="CONcoo|MORPH=empty" xml:id="w_H_022" part="N">ne</w> 
+            <w lemma="a3" type="PRE|MORPH=empty" xml:id="w_H_023" part="N">a</w> 
+            <w lemma="felon"
+               type="NOMcom|NOMB.=s|GENRE=m|CAS=r"
+               xml:id="w_H_024"
+               part="N">felon</w>
+         </l>
+         <l n="3362" part="N">
+            <w lemma="ne1" type="ADVneg|MORPH=empty" xml:id="w_H_025" part="N">Ne</w> 
+            <w lemma="devoir"
+               type="VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s"
+               xml:id="w_H_026"
+               part="N">doit</w> 
+            <w lemma="on"
+               type="PROind|NOMB.=s|GENRE=n|CAS=n"
+               xml:id="w_H_027"
+               part="N">an</w> 
+            <w lemma="faire"
+               type="VERinf|MORPH=empty"
+               xml:id="w_H_028"
+               part="N">feire</w> 
+            <w lemma="se" type="CONsub|MORPH=empty" xml:id="w_H_029" part="N">se</w> 
+            <w lemma="mal1"
+               type="VERcjg|NOMB.=s|GENRE=m|CAS=r"
+               xml:id="w_H_030"
+               part="N">mal</w> 
+            <w lemma="non" type="ADVneg|MORPH=empty" xml:id="w_H_031" part="N">non</w>
+         </l>
+      </body>
+  </text>
+</TEI>
