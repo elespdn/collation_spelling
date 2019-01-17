@@ -64,6 +64,24 @@ Schmid, Helmut. 1994. Probabilistic Part-of-Speech Tagging Using Decision Trees.
     - Move the zip file to a safe place in your computer where you can find it later, e.g. the 'Documents' folder.
     - Unzip it
 
+If you have already Python3 on your machine, follow the steps below:
+
+3. Install CollateX
+If you have already installed CollateX, make sure that you have the most recent version by running:
+
+```bash
+pip3 install --upgrade collatex
+```
+
+If not, here are the installation instructions in a nutshell:
+
+    Ensure Python 3, preferably the Anaconda distribution
+    pip install collatex
+    pip install python-levenshtein (but see the note below for Windows)
+    Install Graphviz, either through a package manager such as apt-get or MacPorts, or go to http://www.graphviz.org/Download.php and accept the license
+    pip install graphviz
+
+
 2. Install the Jupyter Notebook:
     - as explained in the [Jupyter website](https://jupyter.org/install.html), the best way to install it is through Anaconda: [download and install Anaconda](https://www.anaconda.com/download/).
 
