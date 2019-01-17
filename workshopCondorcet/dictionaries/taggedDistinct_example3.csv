@@ -6,7 +6,9 @@ se,PROper|NOMB.=s|GENRE=m|CAS=r_soi1
 consoille,VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s_conseillier1
 Auquel,NOMcom|NOMB.=s|GENRE=m|CAS=r_auques
 d,PRE|MORPH=empty_de
+',PONCT_PONCT
 aus,PRE.PROper|NOMB.=p|GENRE=m|CAS=r_a3+le
+.,PONCT_PONCT
 ii,PROcar|NOMB.=p|GENRE=m|CAS=r_dos
 il,PROper|PERS.=3|NOMB.=s|GENRE=m|CAS=n_il
 aidera,VERcjg|MODE=ind|TEMPS=fut|PERS.=3|NOMB.=s_aidier

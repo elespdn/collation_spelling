@@ -126,15 +126,12 @@ def table_automaticDictionary(graph, dirName):
             
             for td in tr.iter('td'):  ## iterate over cells in a row
                 tdText = td.text
-                print(tdText)
                 listTdText.append(tdText)  ## and put their texts in a list (listTdText)
                 
                 tdPos = td.get('ana').split('_')[0]
-                print(tdPos)
                 listTdPos.append(tdPos)    ## and put their pos in a list (listTdPos)
                 
                 tdLemma = td.get('ana').split('_')[1]
-                print(tdLemma+"stop")
                 listTdLemma.append(tdLemma)   ## and put their lemmas in a list (listTdLemma)
 
             numberOfWits = len(listTdText) 
