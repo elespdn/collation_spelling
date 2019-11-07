@@ -1,572 +1,111 @@
 digraph {
 	graph [rankdir=LR]
 	1 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>start</B></TD><TD ALIGN='LEFT'>exact: 0</TD></TR></TABLE>>]
-	2 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>end</B></TD><TD ALIGN='LEFT'>exact: 87</TD></TR></TABLE>>]
-	3 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_plorer</B></TD><TD ALIGN='LEFT'>exact: 1</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Pleure </FONT></TD><TD ALIGN='LEFT'>S</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Plore </FONT></TD><TD ALIGN='LEFT'>P</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Plurent </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	4 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_si</B></TD><TD ALIGN='LEFT'>exact: 2</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	5 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_oil|öil</B></TD><TD ALIGN='LEFT'>exact: 3</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>oil </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	6 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONcoo_et</B></TD><TD ALIGN='LEFT'>exact: 4</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>e </FONT></TD><TD ALIGN='LEFT'>L</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	7 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_si</B></TD><TD ALIGN='LEFT'>exact: 5</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si </FONT></TD><TD ALIGN='LEFT'>L, S</TD></TR></TABLE>>]
-	8 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_jeter</B></TD><TD ALIGN='LEFT'>exact: 6</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>jetet </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	9 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_grant</B></TD><TD ALIGN='LEFT'>exact: 7</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>grans </FONT></TD><TD ALIGN='LEFT'>P, A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>grant </FONT></TD><TD ALIGN='LEFT'>V</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>granz </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	10 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_cri</B></TD><TD ALIGN='LEFT'>exact: 9</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cri
-</FONT></TD><TD ALIGN='LEFT'>V</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cris
-</FONT></TD><TD ALIGN='LEFT'>P, S, A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>criz
-</FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	11 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_sempre</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Sempres </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	12 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_regretet</B></TD><TD ALIGN='LEFT'>exact: 11</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>regretet </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	13 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_Mar</B></TD><TD ALIGN='LEFT'>exact: 14</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Mar </FONT></TD><TD ALIGN='LEFT'>L, V, A</TD></TR></TABLE>>]
-	14 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_tu</B></TD><TD ALIGN='LEFT'>exact: 15</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>te </FONT></TD><TD ALIGN='LEFT'>L, P, V, A</TD></TR></TABLE>>]
-	15 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_porter</B></TD><TD ALIGN='LEFT'>exact: 16</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>portai </FONT></TD><TD ALIGN='LEFT'>L, S, V, A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>portei </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	16 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_bel</B></TD><TD ALIGN='LEFT'>exact: 17</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>bel </FONT></TD><TD ALIGN='LEFT'>P, V, A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>bels </FONT></TD><TD ALIGN='LEFT'>L</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>biaus </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	17 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_fil</B></TD><TD ALIGN='LEFT'>exact: 18</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fils
-</FONT></TD><TD ALIGN='LEFT'>S</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>filz
-</FONT></TD><TD ALIGN='LEFT'>L, V</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fiz
-</FONT></TD><TD ALIGN='LEFT'>P, A</TD></TR></TABLE>>]
-	18 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONcoo_avoir|estre</B></TD><TD ALIGN='LEFT'>exact: 19</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>E </FONT></TD><TD ALIGN='LEFT'>L, V</TD></TR></TABLE>>]
-	19 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_de</B></TD><TD ALIGN='LEFT'>exact: 20</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>de </FONT></TD><TD ALIGN='LEFT'>L, P, S, V, A</TD></TR></TABLE>>]
-	20 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>DETpos_ton</B></TD><TD ALIGN='LEFT'>exact: 21</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ta </FONT></TD><TD ALIGN='LEFT'>L, P, S, V, A</TD></TR></TABLE>>]
-	21 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_medra</B></TD><TD ALIGN='LEFT'>exact: 22</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>medra </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	22 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_UNKNOWN</B></TD><TD ALIGN='LEFT'>exact: 23</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>meire </FONT></TD><TD ALIGN='LEFT'>V</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>quer </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	23 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_avoir</B></TD><TD ALIGN='LEFT'>exact: 26</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>aveies </FONT></TD><TD ALIGN='LEFT'>L, P</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>aviez </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	24 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_merci</B></TD><TD ALIGN='LEFT'>exact: 27</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>merci
-</FONT></TD><TD ALIGN='LEFT'>P, V, A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mercis
-</FONT></TD><TD ALIGN='LEFT'>S</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mercit
-</FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	25 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_Pur</B></TD><TD ALIGN='LEFT'>exact: 28</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Pur </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	26 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROrel_que</B></TD><TD ALIGN='LEFT'>exact: 29</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	27 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_je</B></TD><TD ALIGN='LEFT'>exact: 30</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>m </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	28 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_voir</B></TD><TD ALIGN='LEFT'>exact: 31</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vedeies </FONT></TD><TD ALIGN='LEFT'>L</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>veeies </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	29 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERinf_desirrer|desirrier</B></TD><TD ALIGN='LEFT'>exact: 32</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>desirrer </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	30 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_a</B></TD><TD ALIGN='LEFT'>exact: 33</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a </FONT></TD><TD ALIGN='LEFT'>L, P, S, A</TD></TR></TABLE>>]
-	31 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERinf_morir</B></TD><TD ALIGN='LEFT'>exact: 34</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>morir
-</FONT></TD><TD ALIGN='LEFT'>P, V</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>murir
-</FONT></TD><TD ALIGN='LEFT'>L</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>murir
-
-</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	32 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROdem_Ço</B></TD><TD ALIGN='LEFT'>exact: 35</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ço </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	33 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_ester|estre</B></TD><TD ALIGN='LEFT'>exact: 36</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>est </FONT></TD><TD ALIGN='LEFT'>L, P, V</TD></TR></TABLE>>]
-	34 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_grant</B></TD><TD ALIGN='LEFT'>exact: 37</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>grant </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	35 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_UNKNOWN</B></TD><TD ALIGN='LEFT'>exact: 38</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>merveile </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	36 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROrel_que</B></TD><TD ALIGN='LEFT'>exact: 39</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que </FONT></TD><TD ALIGN='LEFT'>L, S</TD></TR></TABLE>>]
-	37 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_pietet</B></TD><TD ALIGN='LEFT'>exact: 40</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>pietet </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	38 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONcoo_ni</B></TD><TD ALIGN='LEFT'>exact: 41</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ne </FONT></TD><TD ALIGN='LEFT'>L, S, V</TD></TR></TABLE>>]
-	39 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_tu</B></TD><TD ALIGN='LEFT'>exact: 42</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>t </FONT></TD><TD ALIGN='LEFT'>L, V</TD></TR></TABLE>>]
-	40 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROadv_en</B></TD><TD ALIGN='LEFT'>exact: 43</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>em </FONT></TD><TD ALIGN='LEFT'>S, V</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>en </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	41 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_prendre|prisier</B></TD><TD ALIGN='LEFT'>exact: 44</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>prist
-
-</FONT></TD><TD ALIGN='LEFT'>L, S, V</TD></TR></TABLE>>]
-	42 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_avoir</B></TD><TD ALIGN='LEFT'>exact: 45</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>A </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	43 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_las</B></TD><TD ALIGN='LEFT'>exact: 46</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lasse </FONT></TD><TD ALIGN='LEFT'>L, P, S</TD></TR></TABLE>>]
-	44 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_mezre</B></TD><TD ALIGN='LEFT'>exact: 47</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mezre </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	45 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONsub_come</B></TD><TD ALIGN='LEFT'>exact: 48</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>comme </FONT></TD><TD ALIGN='LEFT'>S</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cum </FONT></TD><TD ALIGN='LEFT'>L, P</TD></TR></TABLE>>]
-	46 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_avoir|öir</B></TD><TD ALIGN='LEFT'>exact: 49</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>oi </FONT></TD><TD ALIGN='LEFT'>L, V, A</TD></TR></TABLE>>]
-	47 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_fort</B></TD><TD ALIGN='LEFT'>exact: 50</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fort </FONT></TD><TD ALIGN='LEFT'>L, S, V, A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>forte </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	48 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_aventure</B></TD><TD ALIGN='LEFT'>exact: 51</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>aventure
-</FONT></TD><TD ALIGN='LEFT'>L, P, S, V, A</TD></TR></TABLE>>]
-	49 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_Or</B></TD><TD ALIGN='LEFT'>exact: 52</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Or </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	50 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_vöoir</B></TD><TD ALIGN='LEFT'>exact: 54</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vei </FONT></TD><TD ALIGN='LEFT'>L, P, V</TD></TR></TABLE>>]
-	51 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_je</B></TD><TD ALIGN='LEFT'>exact: 55</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>jo </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	52 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERppe_morir</B></TD><TD ALIGN='LEFT'>exact: 56</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>morte </FONT></TD><TD ALIGN='LEFT'>L, P, S, V</TD></TR></TABLE>>]
-	53 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>DETind_tot</B></TD><TD ALIGN='LEFT'>exact: 57</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tote </FONT></TD><TD ALIGN='LEFT'>P, V</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>toute </FONT></TD><TD ALIGN='LEFT'>S</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tute </FONT></TD><TD ALIGN='LEFT'>L, A</TD></TR></TABLE>>]
-	54 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>DETpos_mon</B></TD><TD ALIGN='LEFT'>exact: 58</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ma </FONT></TD><TD ALIGN='LEFT'>L, P, S, V, A</TD></TR></TABLE>>]
-	55 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_porteüre</B></TD><TD ALIGN='LEFT'>exact: 59</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>porteüre
-</FONT></TD><TD ALIGN='LEFT'>L, P, V, A</TD></TR></TABLE>>]
-	56 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>DETpos_Ma</B></TD><TD ALIGN='LEFT'>exact: 60</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ma </FONT></TD><TD ALIGN='LEFT'>L, P, S, V, A</TD></TR></TABLE>>]
-	57 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_lunga</B></TD><TD ALIGN='LEFT'>exact: 61</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lunga </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	58 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_atente</B></TD><TD ALIGN='LEFT'>exact: 62</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>atente </FONT></TD><TD ALIGN='LEFT'>L, P, S</TD></TR></TABLE>>]
-	59 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_a</B></TD><TD ALIGN='LEFT'>exact: 65</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a </FONT></TD><TD ALIGN='LEFT'>L, P, S, V, A</TD></TR></TABLE>>]
-	60 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_grant</B></TD><TD ALIGN='LEFT'>exact: 66</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>grant </FONT></TD><TD ALIGN='LEFT'>L, P, V, A</TD></TR></TABLE>>]
-	61 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_duel</B></TD><TD ALIGN='LEFT'>exact: 67</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>duel </FONT></TD><TD ALIGN='LEFT'>L, P, S, V, A</TD></TR></TABLE>>]
-	62 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_ester|estre</B></TD><TD ALIGN='LEFT'>exact: 69</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>est </FONT></TD><TD ALIGN='LEFT'>L, S, V</TD></TR></TABLE>>]
-	63 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_venude</B></TD><TD ALIGN='LEFT'>exact: 70</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>venude
-</FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	64 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_Pur</B></TD><TD ALIGN='LEFT'>exact: 71</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Pur </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	65 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROint_coi</B></TD><TD ALIGN='LEFT'>exact: 72</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>quei </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	66 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_porter</B></TD><TD ALIGN='LEFT'>exact: 73</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>portai </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	67 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_dolent</B></TD><TD ALIGN='LEFT'>exact: 74</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dolante </FONT></TD><TD ALIGN='LEFT'>S</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dolente </FONT></TD><TD ALIGN='LEFT'>L, P, A</TD></TR></TABLE>>]
-	68 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_malfeüde</B></TD><TD ALIGN='LEFT'>exact: 75</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>malfeüde
-</FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	69 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROdem_Ço</B></TD><TD ALIGN='LEFT'>exact: 77</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ço </FONT></TD><TD ALIGN='LEFT'>L, A</TD></TR></TABLE>>]
-	70 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_ester|estre</B></TD><TD ALIGN='LEFT'>exact: 78</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>est </FONT></TD><TD ALIGN='LEFT'>L, P, A</TD></TR></TABLE>>]
-	71 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_grant</B></TD><TD ALIGN='LEFT'>exact: 79</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>granz </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	72 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_meveile</B></TD><TD ALIGN='LEFT'>exact: 80</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>meveile </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	73 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROrel_qui</B></TD><TD ALIGN='LEFT'>exact: 81</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>qui </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	74 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>DETdef_le</B></TD><TD ALIGN='LEFT'>exact: 82</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>li </FONT></TD><TD ALIGN='LEFT'>L, P, A</TD></TR></TABLE>>]
-	75 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_mien</B></TD><TD ALIGN='LEFT'>exact: 83</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mens </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	76 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_cuer</B></TD><TD ALIGN='LEFT'>exact: 84</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cuer </FONT></TD><TD ALIGN='LEFT'>P</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cuers </FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>quors </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	77 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_tant</B></TD><TD ALIGN='LEFT'>exact: 85</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tant </FONT></TD><TD ALIGN='LEFT'>L, P, A</TD></TR></TABLE>>]
-	78 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_durer</B></TD><TD ALIGN='LEFT'>exact: 86</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>duret </FONT></TD><TD ALIGN='LEFT'>L</TD></TR></TABLE>>]
-	79 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE.DETdef_de+le|le</B></TD><TD ALIGN='LEFT'>exact: 2</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>des </FONT></TD><TD ALIGN='LEFT'>P, S</TD></TR></TABLE>>]
-	80 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_ueil</B></TD><TD ALIGN='LEFT'>exact: 3</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>oels </FONT></TD><TD ALIGN='LEFT'>S</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>oilz </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	81 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_geter</B></TD><TD ALIGN='LEFT'>exact: 5</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>gete </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	82 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_mout</B></TD><TD ALIGN='LEFT'>exact: 6</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mult </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	83 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_Après</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Après </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	84 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_il</B></TD><TD ALIGN='LEFT'>exact: 11</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>le </FONT></TD><TD ALIGN='LEFT'>P</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lu </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	85 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_regreter</B></TD><TD ALIGN='LEFT'>exact: 12</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>regrete </FONT></TD><TD ALIGN='LEFT'>P, S, A</TD></TR></TABLE>>]
-	86 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_Mal</B></TD><TD ALIGN='LEFT'>exact: 13</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Mal </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	87 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONcoo_avoir</B></TD><TD ALIGN='LEFT'>exact: 19</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Et </FONT></TD><TD ALIGN='LEFT'>P, S</TD></TR></TABLE>>]
-	88 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_mere</B></TD><TD ALIGN='LEFT'>exact: 22</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mere </FONT></TD><TD ALIGN='LEFT'>P, S, A</TD></TR></TABLE>>]
-	89 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVneg_en</B></TD><TD ALIGN='LEFT'>exact: 24</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>n </FONT></TD><TD ALIGN='LEFT'>P, S</TD></TR></TABLE>>]
-	90 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROadv_en</B></TD><TD ALIGN='LEFT'>exact: 25</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>en </FONT></TD><TD ALIGN='LEFT'>P, S</TD></TR></TABLE>>]
-	91 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_Por</B></TD><TD ALIGN='LEFT'>exact: 28</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Por </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	92 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_tu</B></TD><TD ALIGN='LEFT'>exact: 29</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tei </FONT></TD><TD ALIGN='LEFT'>P, V</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>toi </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	93 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_vöer|vöoir</B></TD><TD ALIGN='LEFT'>exact: 30</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>veez </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	94 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_desir</B></TD><TD ALIGN='LEFT'>exact: 31</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>desir </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	95 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_Ja</B></TD><TD ALIGN='LEFT'>exact: 35</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ja </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	96 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_merveille</B></TD><TD ALIGN='LEFT'>exact: 37</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>merveille </FONT></TD><TD ALIGN='LEFT'>P</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mervelhe </FONT></TD><TD ALIGN='LEFT'>V</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mervelle </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	97 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONsub_come</B></TD><TD ALIGN='LEFT'>exact: 38</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cum </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	98 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_je</B></TD><TD ALIGN='LEFT'>exact: 39</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>je </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	99 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_il</B></TD><TD ALIGN='LEFT'>exact: 40</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>l </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	100 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_pondre|pöoir</B></TD><TD ALIGN='LEFT'>exact: 41</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>puis </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	101 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERinf_sofrir</B></TD><TD ALIGN='LEFT'>exact: 42</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>sofrir
-
-</FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	102 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>INJ_UNKNOWN</B></TD><TD ALIGN='LEFT'>exact: 43</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ohi </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	103 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_mere</B></TD><TD ALIGN='LEFT'>exact: 47</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mere </FONT></TD><TD ALIGN='LEFT'>P, S</TD></TR></TABLE>>]
-	104 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_aidier|avoir</B></TD><TD ALIGN='LEFT'>exact: 49</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ai </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	105 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_Ci</B></TD><TD ALIGN='LEFT'>exact: 52</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ci </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	106 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_lonc</B></TD><TD ALIGN='LEFT'>exact: 61</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>longe </FONT></TD><TD ALIGN='LEFT'>P, S, V</TD></TR></TABLE>>]
-	107 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_je</B></TD><TD ALIGN='LEFT'>exact: 63</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>m </FONT></TD><TD ALIGN='LEFT'>P, A</TD></TR></TABLE>>]
-	108 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_ester|estre</B></TD><TD ALIGN='LEFT'>exact: 64</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>est </FONT></TD><TD ALIGN='LEFT'>P, A</TD></TR></TABLE>>]
-	109 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERppe_venir</B></TD><TD ALIGN='LEFT'>exact: 70</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>venue
-</FONT></TD><TD ALIGN='LEFT'>P, S, V</TD></TR></TABLE>>]
-	110 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONsub_Que</B></TD><TD ALIGN='LEFT'>exact: 71</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Que </FONT></TD><TD ALIGN='LEFT'>P, S, A</TD></TR></TABLE>>]
-	111 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_pöoir</B></TD><TD ALIGN='LEFT'>exact: 72</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>porrai </FONT></TD><TD ALIGN='LEFT'>P, S, V</TD></TR></TABLE>>]
-	112 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERinf_faire</B></TD><TD ALIGN='LEFT'>exact: 73</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>faire </FONT></TD><TD ALIGN='LEFT'>P, S, V, A</TD></TR></TABLE>>]
-	113 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_cröature</B></TD><TD ALIGN='LEFT'>exact: 75</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>creature</FONT></TD><TD ALIGN='LEFT'>S</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>creature
-</FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	114 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROdem_Ceo</B></TD><TD ALIGN='LEFT'>exact: 76</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ceo </FONT></TD><TD ALIGN='LEFT'>P</TD></TR></TABLE>>]
-	115 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_merveille</B></TD><TD ALIGN='LEFT'>exact: 79</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>merveille </FONT></TD><TD ALIGN='LEFT'>P, A</TD></TR></TABLE>>]
-	116 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROrel_que</B></TD><TD ALIGN='LEFT'>exact: 80</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que </FONT></TD><TD ALIGN='LEFT'>P, A</TD></TR></TABLE>>]
-	117 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJpos_mien</B></TD><TD ALIGN='LEFT'>exact: 83</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mien </FONT></TD><TD ALIGN='LEFT'>P</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>miens </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	118 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_dur</B></TD><TD ALIGN='LEFT'>exact: 86</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dure </FONT></TD><TD ALIGN='LEFT'>P, A</TD></TR></TABLE>>]
-	119 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_escröer</B></TD><TD ALIGN='LEFT'>exact: 6</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>escrie </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	120 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_a</B></TD><TD ALIGN='LEFT'>exact: 7</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	121 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_haut</B></TD><TD ALIGN='LEFT'>exact: 8</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>haus </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	122 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_UNKNOWN</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Puis </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	123 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_se</B></TD><TD ALIGN='LEFT'>exact: 11</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>se </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	124 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONcoo_mai</B></TD><TD ALIGN='LEFT'>exact: 13</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Mais </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	125 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROind_tel</B></TD><TD ALIGN='LEFT'>exact: 14</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tel </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	126 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMpro_UNKNOWN</B></TD><TD ALIGN='LEFT'>exact: 23</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>cam </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	127 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_eüs</B></TD><TD ALIGN='LEFT'>exact: 26</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>eüs </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	128 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_Pour</B></TD><TD ALIGN='LEFT'>exact: 28</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Pour </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	129 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERinf_veïr</B></TD><TD ALIGN='LEFT'>exact: 30</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>veïr </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	130 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_desirrer</B></TD><TD ALIGN='LEFT'>exact: 31</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>desiroie </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	131 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERinf_veïr</B></TD><TD ALIGN='LEFT'>exact: 34</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>veïr
-</FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	132 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMpro_Çou</B></TD><TD ALIGN='LEFT'>exact: 35</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Çou </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	133 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_estre</B></TD><TD ALIGN='LEFT'>exact: 36</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fu </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	134 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERppe_peciés</B></TD><TD ALIGN='LEFT'>exact: 40</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>peciés </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	135 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_il</B></TD><TD ALIGN='LEFT'>exact: 42</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>l </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	136 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONcoo_avoir|estre</B></TD><TD ALIGN='LEFT'>exact: 45</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>E </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	137 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONsub_Que</B></TD><TD ALIGN='LEFT'>exact: 52</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Que </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	138 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_ci</B></TD><TD ALIGN='LEFT'>exact: 53</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ci </FONT></TD><TD ALIGN='LEFT'>S, V</TD></TR></TABLE>>]
-	139 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_aler|vöoir</B></TD><TD ALIGN='LEFT'>exact: 54</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>veis </FONT></TD><TD ALIGN='LEFT'>A</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>voi </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	140 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_UNKNOWN</B></TD><TD ALIGN='LEFT'>exact: 59</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>noureture
-</FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	141 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>DETrel_quel</B></TD><TD ALIGN='LEFT'>exact: 66</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>quel </FONT></TD><TD ALIGN='LEFT'>S</TD></TR></TABLE>>]
-	142 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_je</B></TD><TD ALIGN='LEFT'>exact: 68</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>m </FONT></TD><TD ALIGN='LEFT'>S, V</TD></TR></TABLE>>]
-	143 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_avoir</B></TD><TD ALIGN='LEFT'>exact: 1</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ad </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	144 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_autre</B></TD><TD ALIGN='LEFT'>exact: 2</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>altes </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	145 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_voiz</B></TD><TD ALIGN='LEFT'>exact: 3</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>voiz </FONT></TD><TD ALIGN='LEFT'>V, A</TD></TR></TABLE>>]
-	146 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_prendre|prisier</B></TD><TD ALIGN='LEFT'>exact: 4</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>prist </FONT></TD><TD ALIGN='LEFT'>V, A</TD></TR></TABLE>>]
-	147 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_a</B></TD><TD ALIGN='LEFT'>exact: 5</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>a </FONT></TD><TD ALIGN='LEFT'>V, A</TD></TR></TABLE>>]
-	148 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERinf_cröer</B></TD><TD ALIGN='LEFT'>exact: 6</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>crier </FONT></TD><TD ALIGN='LEFT'>V, A</TD></TR></TABLE>>]
-	149 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROdem_Ço</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ço </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	150 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_dire</B></TD><TD ALIGN='LEFT'>exact: 11</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dist </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	151 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>DETdef_le</B></TD><TD ALIGN='LEFT'>exact: 12</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>la </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	152 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_UNKNOWN</B></TD><TD ALIGN='LEFT'>exact: 13</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>meire </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	153 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONcoo_car</B></TD><TD ALIGN='LEFT'>exact: 24</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>kar </FONT></TD><TD ALIGN='LEFT'>V, A</TD></TR></TABLE>>]
-	154 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_auïsses</B></TD><TD ALIGN='LEFT'>exact: 25</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>auïsses </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	155 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_Par</B></TD><TD ALIGN='LEFT'>exact: 28</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Par </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	156 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_je|moi</B></TD><TD ALIGN='LEFT'>exact: 30</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>me </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	157 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_de</B></TD><TD ALIGN='LEFT'>exact: 32</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>de </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	158 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_UNKNOWN</B></TD><TD ALIGN='LEFT'>exact: 33</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>deseier </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	159 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMpro_Zo</B></TD><TD ALIGN='LEFT'>exact: 35</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Zo </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	160 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONsub_que</B></TD><TD ALIGN='LEFT'>exact: 38</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ke </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	161 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_UNKNOWN</B></TD><TD ALIGN='LEFT'>exact: 39</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>pidiez </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	162 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_lasser</B></TD><TD ALIGN='LEFT'>exact: 45</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Lasse </FONT></TD><TD ALIGN='LEFT'>V, A</TD></TR></TABLE>>]
-	163 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_pecheable</B></TD><TD ALIGN='LEFT'>exact: 46</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>pecheable </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	164 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_mout</B></TD><TD ALIGN='LEFT'>exact: 47</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mult </FONT></TD><TD ALIGN='LEFT'>V, A</TD></TR></TABLE>>]
-	165 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMpro_chanter</B></TD><TD ALIGN='LEFT'>exact: 52</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Kant </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	166 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_atendre</B></TD><TD ALIGN='LEFT'>exact: 62</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>atende </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	167 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONsub_Ke</B></TD><TD ALIGN='LEFT'>exact: 71</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ke </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	168 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_chaitif</B></TD><TD ALIGN='LEFT'>exact: 74</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>chaitive </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	169 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_malfeüe</B></TD><TD ALIGN='LEFT'>exact: 75</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>malfeüe
-</FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	170 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_mil</B></TD><TD ALIGN='LEFT'>exact: 76</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Milz </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	171 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_je|moi</B></TD><TD ALIGN='LEFT'>exact: 77</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>me </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	172 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_venir</B></TD><TD ALIGN='LEFT'>exact: 78</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>venist </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	173 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_certes</B></TD><TD ALIGN='LEFT'>exact: 79</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>certes </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	174 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONsub_que</B></TD><TD ALIGN='LEFT'>exact: 80</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ke </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	175 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERppe_morir</B></TD><TD ALIGN='LEFT'>exact: 81</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>morte </FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	176 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_estre</B></TD><TD ALIGN='LEFT'>exact: 82</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fusse</FONT></TD><TD ALIGN='LEFT'>V</TD></TR></TABLE>>]
-	177 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PRE_en</B></TD><TD ALIGN='LEFT'>exact: 1</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>En </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	178 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_haut</B></TD><TD ALIGN='LEFT'>exact: 2</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>halte </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	179 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_Si</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Si </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	180 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMpro_Seveals</B></TD><TD ALIGN='LEFT'>exact: 19</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Seveals </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	181 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_Ja</B></TD><TD ALIGN='LEFT'>exact: 28</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ja </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	182 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_merci</B></TD><TD ALIGN='LEFT'>exact: 29</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>merci </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	183 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_aler|vöoir</B></TD><TD ALIGN='LEFT'>exact: 30</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>veis </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	184 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_tu</B></TD><TD ALIGN='LEFT'>exact: 31</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tu </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	185 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERinf_desirrer</B></TD><TD ALIGN='LEFT'>exact: 32</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>desirer </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	186 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_maleüree</B></TD><TD ALIGN='LEFT'>exact: 46</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>maleüree </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	187 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_Ici</B></TD><TD ALIGN='LEFT'>exact: 52</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Ici </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	188 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERppe_mordre</B></TD><TD ALIGN='LEFT'>exact: 55</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mort </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	189 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADJqua_lonc</B></TD><TD ALIGN='LEFT'>exact: 61</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>lunge </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	190 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_entente</B></TD><TD ALIGN='LEFT'>exact: 62</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>entente </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	191 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERppe_revenir</B></TD><TD ALIGN='LEFT'>exact: 68</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>revenue
-</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	192 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_pouvoir|puir</B></TD><TD ALIGN='LEFT'>exact: 72</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>purra </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	193 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>DETpos_mon</B></TD><TD ALIGN='LEFT'>exact: 75</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ma </FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	194 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMcom_faiture</B></TD><TD ALIGN='LEFT'>exact: 76</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>faiture
-</FONT></TD><TD ALIGN='LEFT'>A</TD></TR></TABLE>>]
-	1 -> 3 [label="L, P, S"]
-	1 -> 143 [label=V]
-	1 -> 177 [label=A]
-	3 -> 4 [label=L]
-	3 -> 79 [label="P, S"]
-	4 -> 5 [label=L]
-	5 -> 6 [label=L]
-	6 -> 7 [label=L]
-	6 -> 81 [label=P]
-	7 -> 8 [label=L]
-	7 -> 119 [label=S]
-	8 -> 9 [label=L]
-	9 -> 10 [label="L, P, V, A"]
-	10 -> 11 [label=L]
-	10 -> 83 [label=P]
-	10 -> 122 [label=S]
-	10 -> 149 [label=V]
-	10 -> 179 [label=A]
-	11 -> 12 [label=L]
-	12 -> 13 [label=L]
-	13 -> 14 [label="L, V, A"]
-	14 -> 15 [label="L, P, V, A"]
-	15 -> 16 [label="L, P, S, V, A"]
-	16 -> 17 [label="L, P, S, V, A"]
-	17 -> 18 [label="L, V"]
-	17 -> 87 [label="P, S"]
-	17 -> 180 [label=A]
-	18 -> 19 [label="L, V"]
-	19 -> 20 [label="L, P, S, V, A"]
-	20 -> 21 [label=L]
-	20 -> 88 [label="P, S, A"]
-	20 -> 22 [label=V]
-	21 -> 22 [label=L]
-	22 -> 23 [label=L]
-	22 -> 153 [label=V]
-	23 -> 24 [label="L, P, A"]
-	24 -> 25 [label=L]
-	24 -> 91 [label=P]
-	24 -> 128 [label=S]
-	24 -> 155 [label=V]
-	24 -> 181 [label=A]
-	25 -> 26 [label=L]
-	26 -> 27 [label=L]
-	27 -> 28 [label=L]
-	28 -> 29 [label=L]
-	28 -> 157 [label=V]
-	29 -> 30 [label=L]
-	30 -> 31 [label="L, P, A"]
-	30 -> 131 [label=S]
-	31 -> 32 [label=L]
-	31 -> 95 [label=P]
-	31 -> 159 [label=V]
-	31 -> 162 [label=A]
-	32 -> 33 [label=L]
-	33 -> 34 [label=L]
-	33 -> 96 [label="P, V"]
-	34 -> 35 [label=L]
-	35 -> 36 [label=L]
-	36 -> 37 [label=L]
-	36 -> 134 [label=S]
-	37 -> 38 [label=L]
-	38 -> 39 [label="L, V"]
-	38 -> 135 [label=S]
-	39 -> 40 [label="L, V"]
-	40 -> 41 [label="L, S, V"]
-	41 -> 42 [label=L]
-	41 -> 136 [label=S]
-	41 -> 162 [label=V]
-	42 -> 43 [label=L]
-	43 -> 44 [label=L]
-	43 -> 103 [label="P, S"]
-	44 -> 45 [label=L]
-	45 -> 46 [label=L]
-	45 -> 104 [label=P]
-	45 -> 47 [label=S]
-	46 -> 47 [label="L, V, A"]
-	47 -> 48 [label="L, P, S, V, A"]
-	48 -> 49 [label=L]
-	48 -> 105 [label=P]
-	48 -> 137 [label=S]
-	48 -> 165 [label=V]
-	48 -> 187 [label=A]
-	49 -> 50 [label=L]
-	50 -> 51 [label=L]
-	50 -> 52 [label="P, V"]
-	51 -> 52 [label=L]
-	52 -> 53 [label="L, P, S, V"]
-	53 -> 54 [label="L, P, S, V, A"]
-	54 -> 55 [label="L, P, V, A"]
-	54 -> 140 [label=S]
-	55 -> 56 [label="L, P, V, A"]
-	56 -> 57 [label=L]
-	56 -> 106 [label="P, S, V"]
-	56 -> 189 [label=A]
-	57 -> 58 [label=L]
-	58 -> 59 [label="L, S"]
-	58 -> 107 [label=P]
-	59 -> 60 [label="L, P, V, A"]
-	59 -> 141 [label=S]
-	60 -> 61 [label="L, P, V, A"]
-	61 -> 62 [label=L]
-	61 -> 109 [label=P]
-	61 -> 142 [label="S, V"]
-	61 -> 191 [label=A]
-	62 -> 63 [label=L]
-	62 -> 109 [label="S, V"]
-	63 -> 64 [label=L]
-	64 -> 65 [label=L]
-	65 -> 66 [label=L]
-	66 -> 67 [label=L]
-	67 -> 68 [label=L]
-	67 -> 113 [label="P, S"]
-	67 -> 193 [label=A]
-	68 -> 69 [label=L]
-	69 -> 70 [label="L, A"]
-	70 -> 71 [label=L]
-	70 -> 115 [label="P, A"]
-	71 -> 72 [label=L]
-	72 -> 73 [label=L]
-	73 -> 74 [label=L]
-	74 -> 75 [label=L]
-	74 -> 117 [label="P, A"]
-	75 -> 76 [label=L]
-	76 -> 77 [label="L, P, A"]
-	77 -> 78 [label=L]
-	77 -> 118 [label="P, A"]
-	78 -> 2 [label=L]
-	79 -> 80 [label="P, S"]
-	80 -> 6 [label=P]
-	80 -> 7 [label=S]
-	81 -> 82 [label=P]
-	82 -> 9 [label=P]
-	83 -> 84 [label=P]
-	84 -> 85 [label="P, A"]
-	85 -> 86 [label=P]
-	85 -> 124 [label=S]
-	85 -> 13 [label=A]
-	86 -> 14 [label=P]
-	87 -> 19 [label="P, S"]
-	88 -> 89 [label=P]
-	88 -> 126 [label=S]
-	88 -> 153 [label=A]
-	89 -> 90 [label="P, S"]
-	90 -> 23 [label=P]
-	90 -> 127 [label=S]
-	91 -> 92 [label=P]
-	92 -> 93 [label=P]
-	92 -> 129 [label=S]
-	92 -> 156 [label=V]
-	93 -> 94 [label=P]
-	94 -> 30 [label=P]
-	95 -> 33 [label=P]
-	96 -> 97 [label=P]
-	96 -> 36 [label=S]
-	96 -> 160 [label=V]
-	97 -> 98 [label=P]
-	98 -> 99 [label=P]
-	99 -> 100 [label=P]
-	100 -> 101 [label=P]
-	101 -> 102 [label=P]
-	102 -> 43 [label=P]
-	103 -> 45 [label="P, S"]
-	104 -> 47 [label=P]
-	105 -> 50 [label=P]
-	106 -> 58 [label="P, S"]
-	106 -> 166 [label=V]
-	107 -> 108 [label="P, A"]
-	108 -> 59 [label="P, A"]
-	109 -> 110 [label="P, S"]
-	109 -> 167 [label=V]
-	110 -> 111 [label="P, S"]
-	110 -> 192 [label=A]
-	111 -> 112 [label="P, S, V"]
-	112 -> 67 [label="P, S, A"]
-	112 -> 168 [label=V]
-	113 -> 114 [label=P]
-	113 -> 2 [label=S]
-	114 -> 70 [label=P]
-	115 -> 116 [label="P, A"]
-	116 -> 74 [label="P, A"]
-	117 -> 76 [label="P, A"]
-	118 -> 2 [label="P, A"]
-	119 -> 120 [label=S]
-	120 -> 121 [label=S]
-	121 -> 10 [label=S]
-	122 -> 123 [label=S]
-	123 -> 85 [label=S]
-	124 -> 125 [label=S]
-	125 -> 15 [label=S]
-	126 -> 89 [label=S]
-	127 -> 24 [label=S]
-	128 -> 92 [label=S]
-	129 -> 130 [label=S]
-	130 -> 30 [label=S]
-	131 -> 132 [label=S]
-	132 -> 133 [label=S]
-	133 -> 96 [label=S]
-	134 -> 38 [label=S]
-	135 -> 40 [label=S]
-	136 -> 43 [label=S]
-	137 -> 138 [label=S]
-	138 -> 139 [label=S]
-	138 -> 50 [label=V]
-	139 -> 52 [label=S]
-	139 -> 188 [label=A]
-	140 -> 56 [label=S]
-	141 -> 61 [label=S]
-	142 -> 62 [label="S, V"]
-	143 -> 144 [label=V]
-	144 -> 145 [label=V]
-	145 -> 146 [label="V, A"]
-	146 -> 147 [label="V, A"]
-	147 -> 148 [label="V, A"]
-	148 -> 9 [label="V, A"]
-	149 -> 150 [label=V]
-	150 -> 151 [label=V]
-	151 -> 152 [label=V]
-	152 -> 13 [label=V]
-	153 -> 154 [label=V]
-	153 -> 23 [label=A]
-	154 -> 24 [label=V]
-	155 -> 92 [label=V]
-	156 -> 28 [label=V]
-	157 -> 158 [label=V]
-	158 -> 31 [label=V]
-	159 -> 33 [label=V]
-	160 -> 161 [label=V]
-	161 -> 38 [label=V]
-	162 -> 163 [label=V]
-	162 -> 186 [label=A]
-	163 -> 164 [label=V]
-	164 -> 46 [label="V, A"]
-	165 -> 138 [label=V]
-	166 -> 59 [label=V]
-	167 -> 111 [label=V]
-	168 -> 169 [label=V]
-	169 -> 170 [label=V]
-	170 -> 171 [label=V]
-	171 -> 172 [label=V]
-	172 -> 173 [label=V]
-	173 -> 174 [label=V]
-	174 -> 175 [label=V]
-	175 -> 176 [label=V]
-	176 -> 2 [label=V]
-	177 -> 178 [label=A]
-	178 -> 145 [label=A]
-	179 -> 84 [label=A]
-	180 -> 19 [label=A]
-	181 -> 182 [label=A]
-	182 -> 183 [label=A]
-	183 -> 184 [label=A]
-	184 -> 185 [label=A]
-	185 -> 30 [label=A]
-	186 -> 164 [label=A]
-	187 -> 139 [label=A]
-	188 -> 53 [label=A]
-	189 -> 190 [label=A]
-	190 -> 107 [label=A]
-	191 -> 110 [label=A]
-	192 -> 112 [label=A]
-	193 -> 194 [label=A]
-	194 -> 69 [label=A]
+	2 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>end</B></TD><TD ALIGN='LEFT'>exact: 18</TD></TR></TABLE>>]
+	3 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_je</B></TD><TD ALIGN='LEFT'>exact: 2</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ge </FONT></TD><TD ALIGN='LEFT'>W1</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>je </FONT></TD><TD ALIGN='LEFT'>W2, W3</TD></TR></TABLE>>]
+	4 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_tu</B></TD><TD ALIGN='LEFT'>exact: 3</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>te </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	5 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_conoistre</B></TD><TD ALIGN='LEFT'>exact: 4</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>conois </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	6 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_mieus</B></TD><TD ALIGN='LEFT'>exact: 6</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>miaus </FONT></TD><TD ALIGN='LEFT'>W3</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>miels </FONT></TD><TD ALIGN='LEFT'>W2</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mielz </FONT></TD><TD ALIGN='LEFT'>W1</TD></TR></TABLE>>]
+	7 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONsub_que</B></TD><TD ALIGN='LEFT'>exact: 7</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>que </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	8 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_tu</B></TD><TD ALIGN='LEFT'>exact: 8</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tu </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	9 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVneg_en</B></TD><TD ALIGN='LEFT'>exact: 9</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ne </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	10 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_conoistre</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>conois </FONT></TD><TD ALIGN='LEFT'>W1</TD></TR></TABLE>>]
+	11 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_je|moi</B></TD><TD ALIGN='LEFT'>exact: 11</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>moi </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	12 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>CONcoo_et</B></TD><TD ALIGN='LEFT'>exact: 12</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>et </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	13 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_neporcant</B></TD><TD ALIGN='LEFT'>exact: 13</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>neporquant </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	14 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_tu</B></TD><TD ALIGN='LEFT'>exact: 14</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>tu </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	15 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>PROper_je|moi</B></TD><TD ALIGN='LEFT'>exact: 15</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>me </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	16 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_connaotre</B></TD><TD ALIGN='LEFT'>exact: 16</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>conoistras </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	17 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_bien</B></TD><TD ALIGN='LEFT'>exact: 17</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>bien
+</FONT></TD><TD ALIGN='LEFT'>W1, W3</TD></TR></TABLE>>]
+	18 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>NOMpro_artu</B></TD><TD ALIGN='LEFT'>exact: 1</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Artu </FONT></TD><TD ALIGN='LEFT'>W2</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Artus </FONT></TD><TD ALIGN='LEFT'>W3</TD></TR></TABLE>>]
+	19 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_faire|feire</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fes </FONT></TD><TD ALIGN='LEFT'>W2</TD></TR></TABLE>>]
+	20 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_mieus</B></TD><TD ALIGN='LEFT'>exact: 17</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>miels
+</FONT></TD><TD ALIGN='LEFT'>W2</TD></TR></TABLE>>]
+	21 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ADVgen_mout</B></TD><TD ALIGN='LEFT'>exact: 5</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>mult </FONT></TD><TD ALIGN='LEFT'>W3</TD></TR></TABLE>>]
+	22 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>VERcjg_faire|fare|farre</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>fas </FONT></TD><TD ALIGN='LEFT'>W3</TD></TR></TABLE>>]
+	1 -> 3 [label=W1]
+	1 -> 18 [label="W2, W3"]
+	3 -> 4 [label="W1, W2, W3"]
+	4 -> 5 [label="W1, W2, W3"]
+	5 -> 6 [label="W1, W2"]
+	5 -> 21 [label=W3]
+	6 -> 7 [label="W1, W2, W3"]
+	7 -> 8 [label="W1, W2, W3"]
+	8 -> 9 [label="W1, W2, W3"]
+	9 -> 10 [label=W1]
+	9 -> 19 [label=W2]
+	9 -> 22 [label=W3]
+	10 -> 11 [label=W1]
+	11 -> 12 [label="W1, W2, W3"]
+	12 -> 13 [label="W1, W2, W3"]
+	13 -> 14 [label="W1, W2, W3"]
+	14 -> 15 [label="W1, W2, W3"]
+	15 -> 16 [label="W1, W2, W3"]
+	16 -> 17 [label="W1, W3"]
+	16 -> 20 [label=W2]
+	17 -> 2 [label="W1, W3"]
+	18 -> 3 [label="W2, W3"]
+	19 -> 11 [label=W2]
+	20 -> 2 [label=W2]
+	21 -> 6 [label=W3]
+	22 -> 11 [label=W3]
 	{
 		graph [rank=same]
 		1
 	}
 	{
 		graph [rank=same]
+		18
+	}
+	{
+		graph [rank=same]
 		3
-		143
-		177
 	}
 	{
 		graph [rank=same]
 		4
-		79
-		144
-		178
 	}
 	{
 		graph [rank=same]
 		5
-		80
-		145
+	}
+	{
+		graph [rank=same]
+		21
 	}
 	{
 		graph [rank=same]
 		6
-		146
 	}
 	{
 		graph [rank=same]
-		81
 		7
-		147
 	}
 	{
 		graph [rank=same]
-		82
 		8
-		119
-		148
 	}
 	{
 		graph [rank=same]
-		120
 		9
 	}
 	{
 		graph [rank=same]
-		121
-	}
-	{
-		graph [rank=same]
+		22
+		19
 		10
 	}
 	{
 		graph [rank=same]
 		11
-		83
-		122
-		149
-		179
 	}
 	{
 		graph [rank=same]
 		12
-		123
-		150
-		84
 	}
 	{
 		graph [rank=same]
-		151
-		85
-	}
-	{
-		graph [rank=same]
-		152
-		86
-		124
-	}
-	{
-		graph [rank=same]
-		125
 		13
 	}
 	{
@@ -583,360 +122,8 @@ digraph {
 	}
 	{
 		graph [rank=same]
-		17
-	}
-	{
-		graph [rank=same]
-		18
-		87
-		180
-	}
-	{
-		graph [rank=same]
-		19
-	}
-	{
-		graph [rank=same]
 		20
-	}
-	{
-		graph [rank=same]
-		21
-		88
-	}
-	{
-		graph [rank=same]
-		126
-		22
-	}
-	{
-		graph [rank=same]
-		89
-		153
-	}
-	{
-		graph [rank=same]
-		90
-		154
-	}
-	{
-		graph [rank=same]
-		127
-		23
-	}
-	{
-		graph [rank=same]
-		24
-	}
-	{
-		graph [rank=same]
-		25
-		91
-		128
-		155
-		181
-	}
-	{
-		graph [rank=same]
-		26
-		92
-		182
-	}
-	{
-		graph [rank=same]
-		27
-		93
-		129
-		156
-		183
-	}
-	{
-		graph [rank=same]
-		94
-		130
-		28
-		184
-	}
-	{
-		graph [rank=same]
-		29
-		157
-		185
-	}
-	{
-		graph [rank=same]
-		158
-		30
-	}
-	{
-		graph [rank=same]
-		31
-		131
-	}
-	{
-		graph [rank=same]
-		32
-		95
-		159
-		132
-	}
-	{
-		graph [rank=same]
-		33
-		133
-	}
-	{
-		graph [rank=same]
-		34
-		96
-	}
-	{
-		graph [rank=same]
-		35
-		97
-		160
-	}
-	{
-		graph [rank=same]
-		98
-		36
-		161
-	}
-	{
-		graph [rank=same]
-		99
-		37
-		134
-	}
-	{
-		graph [rank=same]
-		100
-		38
-	}
-	{
-		graph [rank=same]
-		101
-		39
-		135
-	}
-	{
-		graph [rank=same]
-		102
-		40
-	}
-	{
-		graph [rank=same]
-		41
-	}
-	{
-		graph [rank=same]
-		42
-		136
-		162
-	}
-	{
-		graph [rank=same]
-		43
-		163
-		186
-	}
-	{
-		graph [rank=same]
-		44
-		103
-		164
-	}
-	{
-		graph [rank=same]
-		45
-	}
-	{
-		graph [rank=same]
-		104
-		46
-	}
-	{
-		graph [rank=same]
-		47
-	}
-	{
-		graph [rank=same]
-		48
-	}
-	{
-		graph [rank=same]
-		49
-		105
-		137
-		165
-		187
-	}
-	{
-		graph [rank=same]
-		138
-	}
-	{
-		graph [rank=same]
-		50
-		139
-	}
-	{
-		graph [rank=same]
-		51
-		188
-	}
-	{
-		graph [rank=same]
-		52
-	}
-	{
-		graph [rank=same]
-		53
-	}
-	{
-		graph [rank=same]
-		54
-	}
-	{
-		graph [rank=same]
-		55
-		140
-	}
-	{
-		graph [rank=same]
-		56
-	}
-	{
-		graph [rank=same]
-		57
-		106
-		189
-	}
-	{
-		graph [rank=same]
-		58
-		166
-		190
-	}
-	{
-		graph [rank=same]
-		107
-	}
-	{
-		graph [rank=same]
-		108
-	}
-	{
-		graph [rank=same]
-		59
-	}
-	{
-		graph [rank=same]
-		60
-		141
-	}
-	{
-		graph [rank=same]
-		61
-	}
-	{
-		graph [rank=same]
-		142
-		191
-	}
-	{
-		graph [rank=same]
-		62
-	}
-	{
-		graph [rank=same]
-		63
-		109
-	}
-	{
-		graph [rank=same]
-		64
-		167
-		110
-	}
-	{
-		graph [rank=same]
-		65
-		111
-		192
-	}
-	{
-		graph [rank=same]
-		66
-		112
-	}
-	{
-		graph [rank=same]
-		67
-		168
-	}
-	{
-		graph [rank=same]
-		68
-		113
-		193
-		169
-	}
-	{
-		graph [rank=same]
-		114
-		194
-		170
-	}
-	{
-		graph [rank=same]
-		69
-		171
-	}
-	{
-		graph [rank=same]
-		70
-		172
-	}
-	{
-		graph [rank=same]
-		71
-		115
-		173
-	}
-	{
-		graph [rank=same]
-		72
-		116
-		174
-	}
-	{
-		graph [rank=same]
-		73
-		175
-	}
-	{
-		graph [rank=same]
-		74
-		176
-	}
-	{
-		graph [rank=same]
-		75
-		117
-	}
-	{
-		graph [rank=same]
-		76
-	}
-	{
-		graph [rank=same]
-		77
-	}
-	{
-		graph [rank=same]
-		78
-		118
+		17
 	}
 	{
 		graph [rank=same]

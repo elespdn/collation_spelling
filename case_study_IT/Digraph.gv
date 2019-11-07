@@ -1,0 +1,117 @@
+digraph {
+	graph [rankdir=LR]
+	1 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>start</B></TD><TD ALIGN='LEFT'>exact: 0</TD></TR></TABLE>>]
+	2 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>end</B></TD><TD ALIGN='LEFT'>exact: 15</TD></TR></TABLE>>]
+	3 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>Artus</B></TD><TD ALIGN='LEFT'>exact: 1</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Artus</FONT></TD><TD ALIGN='LEFT'>W1</TD></TR></TABLE>>]
+	4 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>,</B></TD><TD ALIGN='LEFT'>exact: 6</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>, </FONT></TD><TD ALIGN='LEFT'>W1, W3</TD></TR></TABLE>>]
+	5 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>dist</B></TD><TD ALIGN='LEFT'>exact: 8</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dist</FONT></TD><TD ALIGN='LEFT'>W2, W3</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>dist </FONT></TD><TD ALIGN='LEFT'>W1</TD></TR></TABLE>>]
+	6 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>la</B></TD><TD ALIGN='LEFT'>exact: 9</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>la </FONT></TD><TD ALIGN='LEFT'>W1</TD></TR></TABLE>>]
+	7 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>reine</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>reine</FONT></TD><TD ALIGN='LEFT'>W1</TD></TR></TABLE>>]
+	8 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>,</B></TD><TD ALIGN='LEFT'>exact: 11</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>, </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	9 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>je</B></TD><TD ALIGN='LEFT'>exact: 12</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>je </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	10 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>te</B></TD><TD ALIGN='LEFT'>exact: 13</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>te </FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	11 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>conois</B></TD><TD ALIGN='LEFT'>exact: 14</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>conois</FONT></TD><TD ALIGN='LEFT'>W1, W2, W3</TD></TR></TABLE>>]
+	12 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>Et</B></TD><TD ALIGN='LEFT'>exact: 1</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Et </FONT></TD><TD ALIGN='LEFT'>W2, W3</TD></TR></TABLE>>]
+	13 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>la</B></TD><TD ALIGN='LEFT'>exact: 2</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>la </FONT></TD><TD ALIGN='LEFT'>W2</TD></TR></TABLE>>]
+	14 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>reine</B></TD><TD ALIGN='LEFT'>exact: 3</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>reine </FONT></TD><TD ALIGN='LEFT'>W2</TD></TR></TABLE>>]
+	15 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>:</B></TD><TD ALIGN='LEFT'>exact: 9</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>: </FONT></TD><TD ALIGN='LEFT'>W2, W3</TD></TR></TABLE>>]
+	16 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>Artus</B></TD><TD ALIGN='LEFT'>exact: 10</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>Artus</FONT></TD><TD ALIGN='LEFT'>W2, W3</TD></TR></TABLE>>]
+	17 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>quant</B></TD><TD ALIGN='LEFT'>exact: 2</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>quant </FONT></TD><TD ALIGN='LEFT'>W3</TD></TR></TABLE>>]
+	18 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>ele</B></TD><TD ALIGN='LEFT'>exact: 3</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>ele </FONT></TD><TD ALIGN='LEFT'>W3</TD></TR></TABLE>>]
+	19 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>le</B></TD><TD ALIGN='LEFT'>exact: 4</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>le </FONT></TD><TD ALIGN='LEFT'>W3</TD></TR></TABLE>>]
+	20 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>vit</B></TD><TD ALIGN='LEFT'>exact: 5</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>vit</FONT></TD><TD ALIGN='LEFT'>W3</TD></TR></TABLE>>]
+	21 [label=<<TABLE CELLSPACING="0"><TR><TD ALIGN='LEFT'><B>si</B></TD><TD ALIGN='LEFT'>exact: 7</TD></TR><TR><TD ALIGN='LEFT'><FONT FACE='Bukyvede'>si </FONT></TD><TD ALIGN='LEFT'>W3</TD></TR></TABLE>>]
+	1 -> 3 [label=W1]
+	1 -> 12 [label="W2, W3"]
+	3 -> 4 [label=W1]
+	4 -> 5 [label=W1]
+	4 -> 21 [label=W3]
+	5 -> 6 [label=W1]
+	5 -> 15 [label="W2, W3"]
+	6 -> 7 [label=W1]
+	7 -> 8 [label=W1]
+	8 -> 9 [label="W1, W2, W3"]
+	9 -> 10 [label="W1, W2, W3"]
+	10 -> 11 [label="W1, W2, W3"]
+	11 -> 2 [label="W1, W2, W3"]
+	12 -> 13 [label=W2]
+	12 -> 17 [label=W3]
+	13 -> 14 [label=W2]
+	14 -> 5 [label=W2]
+	15 -> 16 [label="W2, W3"]
+	16 -> 8 [label="W2, W3"]
+	17 -> 18 [label=W3]
+	18 -> 19 [label=W3]
+	19 -> 20 [label=W3]
+	20 -> 4 [label=W3]
+	21 -> 5 [label=W3]
+	{
+		graph [rank=same]
+		1
+	}
+	{
+		graph [rank=same]
+		12
+		3
+	}
+	{
+		graph [rank=same]
+		17
+		13
+	}
+	{
+		graph [rank=same]
+		18
+		14
+	}
+	{
+		graph [rank=same]
+		19
+	}
+	{
+		graph [rank=same]
+		20
+	}
+	{
+		graph [rank=same]
+		4
+	}
+	{
+		graph [rank=same]
+		21
+	}
+	{
+		graph [rank=same]
+		5
+	}
+	{
+		graph [rank=same]
+		15
+		6
+	}
+	{
+		graph [rank=same]
+		16
+		7
+	}
+	{
+		graph [rank=same]
+		8
+	}
+	{
+		graph [rank=same]
+		9
+	}
+	{
+		graph [rank=same]
+		10
+	}
+	{
+		graph [rank=same]
+		11
+	}
+	{
+		graph [rank=same]
+		2
+	}
+}
